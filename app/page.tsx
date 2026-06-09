@@ -1,5 +1,7 @@
+import Wc2026 from "./wc2026/page.jsx";
+
 export default function Home() {
   return (
-    <h1>Main page</h1>
+    <Wc2026 />
   );
 }
