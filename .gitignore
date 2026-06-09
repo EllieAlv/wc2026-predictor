@@ -42,3 +42,6 @@ next-env.d.ts
 
 # local Next.js read me file
 Next.js README.md
+
+# public images
+/public
