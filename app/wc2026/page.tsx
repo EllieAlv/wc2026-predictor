@@ -1,13 +1,12 @@
+import MainHeader from "../../components/main-header";
+import GroupMenu from "../../components/group-menu";
 import CountryLabel from "../../components/country-label";
 
 export default function Wc2026() {
   return (
     <>
-      <header className="bg-[#010d1e] text-white">
-        <div className="flex h-[8vh] justify-center">
-          <h1>FIFA World Cup 26™ predictor</h1>
-        </div>
-      </header>
+      <MainHeader />
+      <GroupMenu />
       <main>
         <p></p>
         <CountryLabel
