@@ -1,5 +1,5 @@
-import { getGroups } from "../lib/get-groups";
-import Button from "./top-menu-button";
+import { getGroups } from "../../lib/get-groups";
+import Button from "../top-menu-button";
 
 export default function GroupMenu() {
   const groups = [...getGroups(), "Knockout round"];
