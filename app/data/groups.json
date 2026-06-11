@@ -1,0 +1,242 @@
+[
+  {
+    "Group": "A",
+    "Position": "1",
+    "Country": "Mexico"
+  },
+  {
+    "Group": "A",
+    "Position": "2",
+    "Country": "South Africa"
+  },
+  {
+    "Group": "A",
+    "Position": "3",
+    "Country": "South Korea"
+  },
+  {
+    "Group": "A",
+    "Position": "4",
+    "Country": "Czech Republic"
+  },
+  {
+    "Group": "B",
+    "Position": "1",
+    "Country": "Canada"
+  },
+  {
+    "Group": "B",
+    "Position": "2",
+    "Country": "Bosnia and Herzegovina"
+  },
+  {
+    "Group": "B",
+    "Position": "3",
+    "Country": "Qatar"
+  },
+  {
+    "Group": "B",
+    "Position": "4",
+    "Country": "Switzerland"
+  },
+  {
+    "Group": "C",
+    "Position": "1",
+    "Country": "Brazil"
+  },
+  {
+    "Group": "C",
+    "Position": "2",
+    "Country": "Morocco"
+  },
+  {
+    "Group": "C",
+    "Position": "3",
+    "Country": "Haiti"
+  },
+  {
+    "Group": "C",
+    "Position": "4",
+    "Country": "Scotland"
+  },
+  {
+    "Group": "D",
+    "Position": "1",
+    "Country": "United States"
+  },
+  {
+    "Group": "D",
+    "Position": "2",
+    "Country": "Paraguay"
+  },
+  {
+    "Group": "D",
+    "Position": "3",
+    "Country": "Australia"
+  },
+  {
+    "Group": "D",
+    "Position": "4",
+    "Country": "Turkey"
+  },
+  {
+    "Group": "E",
+    "Position": "1",
+    "Country": "Germany"
+  },
+  {
+    "Group": "E",
+    "Position": "2",
+    "Country": "Curaçao"
+  },
+  {
+    "Group": "E",
+    "Position": "3",
+    "Country": "Ivory Coast"
+  },
+  {
+    "Group": "E",
+    "Position": "4",
+    "Country": "Ecuador"
+  },
+  {
+    "Group": "F",
+    "Position": "1",
+    "Country": "Netherlands"
+  },
+  {
+    "Group": "F",
+    "Position": "2",
+    "Country": "Japan"
+  },
+  {
+    "Group": "F",
+    "Position": "3",
+    "Country": "Sweden"
+  },
+  {
+    "Group": "F",
+    "Position": "4",
+    "Country": "Tunisia"
+  },
+  {
+    "Group": "G",
+    "Position": "1",
+    "Country": "Belgium"
+  },
+  {
+    "Group": "G",
+    "Position": "2",
+    "Country": "Egypt"
+  },
+  {
+    "Group": "G",
+    "Position": "3",
+    "Country": "Iran"
+  },
+  {
+    "Group": "G",
+    "Position": "4",
+    "Country": "New Zealand"
+  },
+  {
+    "Group": "H",
+    "Position": "1",
+    "Country": "Spain"
+  },
+  {
+    "Group": "H",
+    "Position": "2",
+    "Country": "Cape Verde"
+  },
+  {
+    "Group": "H",
+    "Position": "3",
+    "Country": "Saudi Arabia"
+  },
+  {
+    "Group": "H",
+    "Position": "4",
+    "Country": "Uruguay"
+  },
+  {
+    "Group": "I",
+    "Position": "1",
+    "Country": "France"
+  },
+  {
+    "Group": "I",
+    "Position": "2",
+    "Country": "Senegal"
+  },
+  {
+    "Group": "I",
+    "Position": "3",
+    "Country": "Iraq"
+  },
+  {
+    "Group": "I",
+    "Position": "4",
+    "Country": "Norway"
+  },
+  {
+    "Group": "J",
+    "Position": "1",
+    "Country": "Argentina"
+  },
+  {
+    "Group": "J",
+    "Position": "2",
+    "Country": "Algeria"
+  },
+  {
+    "Group": "J",
+    "Position": "3",
+    "Country": "Austria"
+  },
+  {
+    "Group": "J",
+    "Position": "4",
+    "Country": "Jordan"
+  },
+  {
+    "Group": "K",
+    "Position": "1",
+    "Country": "Portugal"
+  },
+  {
+    "Group": "K",
+    "Position": "2",
+    "Country": "DR Congo"
+  },
+  {
+    "Group": "K",
+    "Position": "3",
+    "Country": "Uzbekistan"
+  },
+  {
+    "Group": "K",
+    "Position": "4",
+    "Country": "Colombia"
+  },
+  {
+    "Group": "L",
+    "Position": "1",
+    "Country": "England"
+  },
+  {
+    "Group": "L",
+    "Position": "2",
+    "Country": "Croatia"
+  },
+  {
+    "Group": "L",
+    "Position": "3",
+    "Country": "Ghana"
+  },
+  {
+    "Group": "L",
+    "Position": "4",
+    "Country": "Panama"
+  }
+]
