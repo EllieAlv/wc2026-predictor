@@ -1,8 +1,9 @@
 import { configureStore } from "@reduxjs/toolkit";
+import groupReducer from "./features/groupSlice";
 
 export const makeStore = () =>
   configureStore({
-    reducer: {},
+    reducer: { group: groupReducer },
   });
 
 export type AppStore = ReturnType<typeof makeStore>;
