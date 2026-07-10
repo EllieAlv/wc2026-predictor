@@ -44,9 +44,9 @@ export default function GroupMenu() {
 
   return (
     <div className="flex justify-start xl:justify-center h-16 bg-[#000000]">
-      <menu className="flex flex-row items-center">
+      <menu className="flex flex-row items-center flex-wrap md:flex-nowrap">
         {groups.map((menuItem, index) => (
-          <li key={menuItem}>
+          <li key={menuItem} className="">
             <Button
               onButtonClick={handleMenuClick}
               cssClasses={buttonClasses[index]}
