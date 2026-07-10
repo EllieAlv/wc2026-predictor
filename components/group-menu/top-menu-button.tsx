@@ -1,24 +1,33 @@
 "use client";
 
-import { ReactNode, useState } from "react";
+import { ReactNode } from "react";
 
 interface ButtonProps {
+  onButtonClick: (group: string) => void;
+  onButtonMouseOver: (button: string) => void;
+  onButtonMouseOut: () => void;
+  cssClasses: string;
   children: ReactNode;
 }
 
-export default function Button({ children }: ButtonProps) {
-  const [buttonClasses, setButtonClasses] = useState("text-white bg-[#000000]");
-
-  function handleMouseOver() {
-    setButtonClasses("text-white bg-[#1A1A1A]");
+export default function Button({
+  onButtonClick,
+  onButtonMouseOver,
+  onButtonMouseOut,
+  cssClasses,
+  children,
+}: ButtonProps) {
+  
+  function handleMouseOver(e: React.MouseEvent<HTMLButtonElement>) {
+    onButtonMouseOver(e.currentTarget.textContent);
   }
 
   function handleMouseOut() {
-    setButtonClasses("text-white bg-[#000000]");
+    onButtonMouseOut();
   }
 
-  function handleClick() {
-    setButtonClasses("text-red-500 bg-[#1A1A1A]");
+  function handleClick(e: React.MouseEvent<HTMLButtonElement>) {
+    onButtonClick(e.currentTarget.textContent);
   }
 
   return (
@@ -26,7 +35,7 @@ export default function Button({ children }: ButtonProps) {
       onMouseOver={handleMouseOver}
       onMouseOut={handleMouseOut}
       onClick={handleClick}
-      className={buttonClasses + " py-2 px-5 m-0.5"}
+      className={cssClasses + " py-2 px-5 m-0.5"}
     >
       {children}
     </button>
