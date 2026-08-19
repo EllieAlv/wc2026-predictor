@@ -1,74 +1,74 @@
 [
   {
     "Group": "A",
-    "Color": "White",
-    "Background": "Green",
+    "Color": "#FFFFFF",
+    "Background": "#3A544C",
     "Countries": ["Mexico", "South Africa", "South Korea", "Czech Republic"]
   },
   {
     "Group": "B",
-    "Color": "White",
-    "Background": "Red",
+    "Color": "#FFFFFF",
+    "Background": "#C5281C",
     "Countries": ["Canada", "Bosnia and Herzegovina", "Qatar", "Switzerland"]
   },
   {
     "Group": "C",
-    "Color": "Green",
-    "Background": "Yellow",
+    "Color": "#19AE47",
+    "Background": "#FDDC02",
     "Country": ["Brazil", "Morocco", "Haiti", "Scotland"]
   },
   {
     "Group": "D",
-    "Color": "White",
-    "Background": "Blue",
+    "Color": "#FFFFFF",
+    "Background": "#1F2742",
     "Country": ["United States", "Paraguay", "Australia", "Turkey"]
   },
   {
     "Group": "E",
-    "Color": "White",
-    "Background": "Black",
+    "Color": "#FFFFFF",
+    "Background": "#31292D",
     "Country": ["Germany", "Curaçao", "Ivory Coast", "Ecuador"]
   }, 
   {
     "Group": "F",
-    "Color": "White",
-    "Background": "Orange",
+    "Color": "#FFFFFF",
+    "Background": "#F36C21",
     "Country": ["Netherlands", "Japan", "Sweden", "Tunisia"]
   },  
   {
     "Group": "G",
-    "Color": "White",
-    "Background": "Blue",
+    "Color": "#1D1D1B",
+    "Background": "#E30613",
     "Country": ["Belgium", "Egypt", "Iran", "New Zealand"]
   },  
   {
     "Group": "H",
-    "Color": "White",
-    "Background": "Blue",
+    "Color": "#FFC908",
+    "Background": "#FF0028",
     "Country": ["Spain", "Cape Verde", "Saudi Arabia", "Uruguay"]
   },  
   {
     "Group": "I",
-    "Color": "White",
-    "Background": "Blue",
+    "Color": "#FFFFFF",
+    "Background": "#3D5BAE",
     "Country": ["France", "Senegal", "Iraq", "Norway"]
   }, 
   {
     "Group": "J",
-    "Color": "White",
-    "Background": "Light Blue",
+    "Color": "#FFFFFE",
+    "Background": "#43A1D5",
     "Country": ["Argentina", "Algeria", "Austria", "Jordan"]
   },  
   {
     "Group": "K",
-    "Color": "White",
-    "Background": "Blue",
+    "Color": "#003A3D",
+    "Background": "#E42518",
     "Country": ["Portugal", "DR Congo", "Uzbekistan", "Colombia"]
   },  
   {
     "Group": "L",
-    "Color": "Red",
-    "Background": "White",
+    "Color": "#EA1F29",
+    "Background": "#FFFFFF",
     "Country": ["England", "Croatia", "Ghana", "Panama"]
   } 
 ]
