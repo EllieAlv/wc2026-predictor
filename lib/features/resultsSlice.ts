@@ -2,7 +2,7 @@ import { createSlice, PayloadAction } from "@reduxjs/toolkit";
 
 //Define type of state
 interface GroupResults {
-  gameResults: number[][];
+  gameResults: number[][]; //matrix = [[1,1],[6,0],[1,2]] Canada results in WC
   numberOfGamesPlayed: number;
 }
 

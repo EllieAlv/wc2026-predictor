@@ -1,13 +1,14 @@
 import { createSlice, PayloadAction } from "@reduxjs/toolkit";
+import { Group } from "../../components/models/group";
 
-//Define type for state
-interface GroupState {
-  selectedGroup: string;
-}
+//The type for the state is defined in "../../components/models/group"
 
 //Define initial state
-const initialState: GroupState = {
-  selectedGroup: "Group B",
+const initialState: Group = {
+  groupName: "Group B",
+  color: 0xFFFFFF,
+  background: 0xC5281C,
+  countries: ["Canada", "Bosnia and Herzegovina", "Qatar", "Switzerland"],
 };
 
 //Create slice with typed reducers
@@ -16,7 +17,7 @@ export const groupSlice = createSlice({
   initialState,
   reducers: {
     selectGroup: (state, action: PayloadAction<string>) => {
-      state.selectedGroup = action.payload;
+      state.groupName = action.payload;
     },
   },
 });

@@ -3,7 +3,7 @@
     "Group": "A",
     "Color": "#FFFFFF",
     "Background": "#3A544C",
-    "Countries": ["Mexico", "South Africa", "South Korea", "Czech Republic"]
+    "Countries": ["Mexico", "South Africa", "South Korea", "Czechia"]
   },
   {
     "Group": "B",
@@ -21,13 +21,13 @@
     "Group": "D",
     "Color": "#FFFFFF",
     "Background": "#1F2742",
-    "Country": ["United States", "Paraguay", "Australia", "Turkey"]
+    "Country": ["United States", "Paraguay", "Australia", "Türkiye"]
   },
   {
     "Group": "E",
     "Color": "#FFFFFF",
     "Background": "#31292D",
-    "Country": ["Germany", "Curaçao", "Ivory Coast", "Ecuador"]
+    "Country": ["Germany", "Curaçao", "Côte d'Ivoire", "Ecuador"]
   }, 
   {
     "Group": "F",
@@ -45,7 +45,7 @@
     "Group": "H",
     "Color": "#FFC908",
     "Background": "#FF0028",
-    "Country": ["Spain", "Cape Verde", "Saudi Arabia", "Uruguay"]
+    "Country": ["Spain", "Cabo Verde", "Saudi Arabia", "Uruguay"]
   },  
   {
     "Group": "I",

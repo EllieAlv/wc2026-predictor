@@ -10,7 +10,7 @@ import Button from "./top-menu-button";
 export default function GroupMenu() {
   //Redux hooks used for main menu interaction
   const selectedGroup = useAppSelector(
-    (state: RootState) => state.group.selectedGroup,
+    (state: RootState) => state.group.groupName,
   );
   const dispatch = useAppDispatch();
   //String array used to display the main menu options
