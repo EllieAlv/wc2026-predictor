@@ -1,7 +1,6 @@
 import { createSlice, PayloadAction } from "@reduxjs/toolkit";
 import { Group } from "../../components/models/group";
 
-//Define initial state
 const initialState: Group[] = [];
 
 //Create slice with type reducers
@@ -10,7 +9,7 @@ export const groupsSlice = createSlice({
   initialState,
   reducers: {
     loadGroups: (state, action: PayloadAction<Group[]>) => {
-      state = action.payload;
+      return action.payload;
     },
   },
 });

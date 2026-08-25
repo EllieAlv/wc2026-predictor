@@ -1,74 +1,74 @@
 [
   {
-    "Group": "A",
-    "Color": "#FFFFFF",
-    "Background": "#3A544C",
-    "Countries": ["Mexico", "South Africa", "South Korea", "Czechia"]
+    "groupName": "A",
+    "color": "#FFFFFF",
+    "background": "#3A544C",
+    "countries": ["Mexico", "South Africa", "South Korea", "Czechia"]
   },
   {
-    "Group": "B",
-    "Color": "#FFFFFF",
-    "Background": "#C5281C",
-    "Countries": ["Canada", "Bosnia and Herzegovina", "Qatar", "Switzerland"]
+    "groupName": "B",
+    "color": "#FFFFFF",
+    "background": "#C5281C",
+    "countries": ["Canada", "Bosnia and Herzegovina", "Qatar", "Switzerland"]
   },
   {
-    "Group": "C",
-    "Color": "#19AE47",
-    "Background": "#FDDC02",
+    "groupName": "C",
+    "color": "#19AE47",
+    "background": "#FDDC02",
     "Country": ["Brazil", "Morocco", "Haiti", "Scotland"]
   },
   {
-    "Group": "D",
-    "Color": "#FFFFFF",
-    "Background": "#1F2742",
+    "groupName": "D",
+    "color": "#FFFFFF",
+    "background": "#1F2742",
     "Country": ["United States", "Paraguay", "Australia", "Türkiye"]
   },
   {
-    "Group": "E",
-    "Color": "#FFFFFF",
-    "Background": "#31292D",
+    "groupName": "E",
+    "color": "#FFFFFF",
+    "background": "#31292D",
     "Country": ["Germany", "Curaçao", "Côte d'Ivoire", "Ecuador"]
   }, 
   {
-    "Group": "F",
-    "Color": "#FFFFFF",
-    "Background": "#F36C21",
+    "groupName": "F",
+    "color": "#FFFFFF",
+    "background": "#F36C21",
     "Country": ["Netherlands", "Japan", "Sweden", "Tunisia"]
   },  
   {
-    "Group": "G",
-    "Color": "#1D1D1B",
-    "Background": "#E30613",
+    "groupName": "G",
+    "color": "#1D1D1B",
+    "background": "#E30613",
     "Country": ["Belgium", "Egypt", "Iran", "New Zealand"]
   },  
   {
-    "Group": "H",
-    "Color": "#FFC908",
-    "Background": "#FF0028",
+    "groupName": "H",
+    "color": "#FFC908",
+    "background": "#FF0028",
     "Country": ["Spain", "Cabo Verde", "Saudi Arabia", "Uruguay"]
   },  
   {
-    "Group": "I",
-    "Color": "#FFFFFF",
-    "Background": "#3D5BAE",
+    "groupName": "I",
+    "color": "#FFFFFF",
+    "background": "#3D5BAE",
     "Country": ["France", "Senegal", "Iraq", "Norway"]
   }, 
   {
-    "Group": "J",
-    "Color": "#FFFFFE",
-    "Background": "#43A1D5",
+    "groupName": "J",
+    "color": "#FFFFFE",
+    "background": "#43A1D5",
     "Country": ["Argentina", "Algeria", "Austria", "Jordan"]
   },  
   {
-    "Group": "K",
-    "Color": "#003A3D",
-    "Background": "#E42518",
+    "groupName": "K",
+    "color": "#003A3D",
+    "background": "#E42518",
     "Country": ["Portugal", "DR Congo", "Uzbekistan", "Colombia"]
   },  
   {
-    "Group": "L",
-    "Color": "#EA1F29",
-    "Background": "#FFFFFF",
+    "groupName": "L",
+    "color": "#EA1F29",
+    "background": "#FFFFFF",
     "Country": ["England", "Croatia", "Ghana", "Panama"]
   } 
 ]

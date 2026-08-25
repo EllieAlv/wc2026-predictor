@@ -4,14 +4,20 @@ import React, { useEffect, useState } from "react";
 import { useAppDispatch, useAppSelector } from "../../lib/hooks";
 import { RootState } from "../../lib/store";
 import { selectGroup } from "../../lib/features/groupSlice";
-import { getGroups } from "../../lib/get-groups";
+import { getGroupNames, getGroups } from "../../lib/get-groups";
 import Button from "./top-menu-button";
+
+import { getGroupsData } from "../../app/api/get-group-data";
+import { loadGroups } from "../../lib/features/groupsSlice";
+import { Group } from "../../components/models/group";
 
 export default function GroupMenu() {
   //Redux hooks used for main menu interaction
   const selectedGroup = useAppSelector(
     (state: RootState) => state.group.groupName,
   );
+  const groupsData = useAppSelector((state: RootState) => state.groups);
+  //const groups
   const dispatch = useAppDispatch();
   //String array used to display the main menu options
   const groups: string[] = [...getGroups(), "Knockout round"];
@@ -35,6 +41,20 @@ export default function GroupMenu() {
   useEffect(() => {
     setDefaultColours();
   }, [selectedGroup]);
+
+  useEffect(() => {
+    async function getData() {
+      const groupsData1 = await getGroupsData();
+      dispatch(loadGroups(groupsData1));
+    }
+
+    getData();
+  }, [dispatch]);
+
+  if (groupsData.length !== 0) {
+    const names: string[] = getGroupNames(groupsData);
+    console.log("Names: ", names);
+  }
 
   //Gives red text to the selected button and white text to the others
   function handleMenuClick(group: string) {

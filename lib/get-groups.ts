@@ -1,14 +1,13 @@
-import { getGroupsData } from "../app/api/get-group-data";
-import { useAppDispatch } from "./hooks";
-import { loadGroups } from "./features/groupsSlice";
 import groupsdata from "../app/data/groups.json";
 import { Group } from "../components/models/group";
 
 export function getGroups(): string[] {
   let groups: string[] = [];
 
-  groupsdata.forEach((team) => {!groups.includes("Group " + team.Group) && groups.push("Group " + team.Group)});
-  //useSetGroups();
+  groupsdata.forEach((team) => {
+    !groups.includes("Group " + team.groupName) &&
+      groups.push("Group " + team.groupName);
+  });
 
   return groups;
 }
@@ -17,12 +16,12 @@ export function getGroup(groupName: string): string[] {
   return [];
 }
 
-export async function setGroups() {
-  /*const groupsData: Group[] = await getGroupsData();
-  //Redux hooks used for main menu interaction
-  //const groups = useAppSelector((state: RootState) => state);
-  
-  const dispatch = useAppDispatch();
+export function getGroupNames(groups: Group[]): string[] {
+  let groupNames: string[] = [];
 
-  dispatch(loadGroups(groupsData));*/
+  console.log("Groups: ", groups);
+  groups.forEach((group) => {
+    groupNames.push(group.groupName);
+  });
+  return groupNames;
 }
