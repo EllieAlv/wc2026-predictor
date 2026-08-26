@@ -1,23 +1,38 @@
+/*Component has the country's flag and name. It is used as part of the group table, the list of group games, and the in the knockout stage games.
+Left margin is received as a prop to allow for the component to be used in different places.*/
+
 import Image from "next/image";
 
 interface Country {
   countryName: string;
-  filename: string;
+  fileName: string;
+  leftMargin: string;
 }
 
 const flagImagePath: string = "/images/flags/";
 
-export default function CountryLabel({ countryName, filename }: Country) {
+export default function CountryLabel({
+  countryName,
+  fileName,
+  leftMargin,
+}: Country) {
+  const margin: string = leftMargin;
+
   return (
-    <div className="flex flex-nowrap">
+    <div
+      className="flex flex-nowrap items-center"
+      style={{ marginLeft: margin }}
+    >
       <Image
-        className="w-12 h-auto"
-        src={flagImagePath + filename + ".png"}
+        className="w-9 h-6 object-fill"
+        src={flagImagePath + fileName + ".png"}
         alt={`Flag of ${countryName}`}
-        width={400}
-        height={400}
+        width={500}
+        height={500}
       />
-      <label>{countryName}</label>
+      <div className="flex items-center ml-1.5">
+        <label>{countryName}</label>
+      </div>
     </div>
   );
 }

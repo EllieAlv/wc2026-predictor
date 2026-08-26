@@ -24,11 +24,11 @@ export default function TableHeaders() {
 
   return (
     //Div for the grid that will hold the headers
-    <div className="grid grid-cols-[1fr_2fr_repeat(8,1fr)] grid-flow-col">
+    <div className="grid grid-cols-[1fr_2fr_repeat(8,1fr)] grid-flow-col mb-1">
       {headers.map((header) => (
         //Each header is inside a flexbox inside a div
         <div
-          className={"flex justify-center content-center mt-0.75 h-6 font-bold rounded border-2 border-x px-0.5 border-x-black"}
+          className={"flex justify-center mt-0.75 h-6 font-bold rounded border-2 border-x px-0.5 border-x-black"}
           style={{ color: color, background: headerColor }}
           key={header}
         >

@@ -21,11 +21,12 @@ interface TableRowProps {
 
 export default function TableRow({ group, index, country }: TableRowProps) {
   return (
-    <div className="grid grid-cols-[1fr_2fr_repeat(8,1fr)] grid-flow-col pt-2">      
+    <div className="grid grid-cols-[1fr_2fr_repeat(8,1fr)] grid-flow-col py-2">      
       <label className="text-center">{index + 1}</label>
       <CountryLabel
         countryName={country}
-        filename={`${group}${index + 1} ${country}`}
+        fileName={`${group}${index + 1} ${country}`}
+        leftMargin={"4rem"}
       />
       {teamStats.map((stat, statIndex) => (
         <label className="text-center" key={`${stat}${statIndex}`}>
