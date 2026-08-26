@@ -5,9 +5,9 @@ import { Group } from "../../components/models/group";
 
 //Define initial state
 const initialState: Group = {
-  groupName: "Group B",
-  color: 0xFFFFFF,
-  background: 0xC5281C,
+  groupName: "B",
+  color: "#FFFFFF",
+  background: "#C5281C",
   countries: ["Canada", "Bosnia and Herzegovina", "Qatar", "Switzerland"],
 };
 
@@ -16,8 +16,8 @@ export const groupSlice = createSlice({
   name: "group",
   initialState,
   reducers: {
-    selectGroup: (state, action: PayloadAction<string>) => {
-      state.groupName = action.payload;
+    selectGroup: (state, action: PayloadAction<Group>) => {
+      return action.payload;
     },
   },
 });

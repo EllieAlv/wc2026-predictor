@@ -1,6 +1,6 @@
 export interface Group {
   groupName: string;
-  color: number;
-  background: number;
+  color: string;
+  background: string;
   countries: string[];
 }

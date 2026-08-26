@@ -1,80 +1,48 @@
 "use client";
 
-import React, { useEffect, useState } from "react";
+import { useGetGroupsDataQuery } from "../../lib/features/fetchGroupsApi";
 import { useAppDispatch, useAppSelector } from "../../lib/hooks";
 import { RootState } from "../../lib/store";
 import { selectGroup } from "../../lib/features/groupSlice";
-import { getGroupNames, getGroups } from "../../lib/get-groups";
+import { getGroupNames } from "../../lib/get-groups";
+import { Group } from "../models/group";
 import Button from "./top-menu-button";
-
-import { getGroupsData } from "../../app/api/get-group-data";
-import { loadGroups } from "../../lib/features/groupsSlice";
-import { Group } from "../../components/models/group";
 
 export default function GroupMenu() {
   //Redux hooks used for main menu interaction
   const selectedGroup = useAppSelector(
     (state: RootState) => state.group.groupName,
   );
-  const groupsData = useAppSelector((state: RootState) => state.groups);
-  //const groups
   const dispatch = useAppDispatch();
+  const { data: groupsData, isSuccess, error } = useGetGroupsDataQuery();
   //String array used to display the main menu options
-  const groups: string[] = [...getGroups(), "Knockout round"];
-  //State array and string array used for main menu UI interaction feedback
-  const [buttonClasses, setButtonClasses] = useState<string[]>([]);
-  const cssClassesArray: string[] = [];
-
-  //Gives red text to the selected group (menu option) and white text to the others
-  function setDefaultColours() {
-    groups.map((item) =>
-      item === selectedGroup
-        ? cssClassesArray.push("text-red-500 bg-[#000000] hover:bg-[#1A1A1A]")
-        : cssClassesArray.push(
-            "text-white bg-[#000000] hover:text-red-500 hover:bg-[#1A1A1A]",
-          ),
-    );
-    setButtonClasses(cssClassesArray);
-  }
-
-  //useEffect hook used for correctly loading the UI colors of the main menu buttons while preventing infinite re-renders
-  useEffect(() => {
-    setDefaultColours();
-  }, [selectedGroup]);
-
-  useEffect(() => {
-    async function getData() {
-      const groupsData1 = await getGroupsData();
-      dispatch(loadGroups(groupsData1));
-    }
-
-    getData();
-  }, [dispatch]);
-
-  if (groupsData.length !== 0) {
-    const names: string[] = getGroupNames(groupsData);
-    console.log("Names: ", names);
-  }
+  const groupNames: string[] = isSuccess ? getGroupNames(groupsData) : [];
 
   //Gives red text to the selected button and white text to the others
-  function handleMenuClick(group: string) {
-    dispatch(selectGroup(group));
-    setDefaultColours();
+  function handleMenuClick(groupName: string) {
+    const newSelectedGroup: Group = groupsData.find(
+      (group: Group) => "Group " + group.groupName === groupName,
+    );
+    
+    dispatch(selectGroup(newSelectedGroup));
   }
 
   return (
     <div className="flex justify-start xl:justify-center h-16 bg-[#000000]">
       <menu className="flex flex-row items-center flex-wrap md:flex-nowrap">
-        {groups.map((menuItem, index) => (
-          <li key={menuItem} className="">
-            <Button
-              onButtonClick={handleMenuClick}
-              cssClasses={buttonClasses[index]}
-            >
-              {menuItem}
-            </Button>
-          </li>
-        ))}
+        {groupNames.map((menuItem) => {
+          const isSelected = menuItem === "Group " + selectedGroup;
+          const buttonClass = isSelected
+            ? "text-red-500 bg-[#000000] hover:bg-[#1A1A1A]"
+            : "text-white bg-[#000000] hover:text-red-500 hover:bg-[#1A1A1A]";
+          return (
+            <li key={menuItem} className="">
+              <Button onButtonClick={handleMenuClick} cssClasses={buttonClass}>
+                {menuItem}
+              </Button>
+            </li>
+          );
+        })}
       </menu>
     </div>
   );

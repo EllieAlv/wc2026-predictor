@@ -1,12 +1,6 @@
-import React from "react";
-import CountryLabel from "../country-label";
+"use client";
 
-const countries: string[] = [
-  "Canada",
-  "Bosnia and Herzegovina",
-  "Qatar",
-  "Switzerland",
-];
+import CountryLabel from "../country-label";
 
 const teamStats: string[] = [
   "Games Played",
@@ -19,22 +13,25 @@ const teamStats: string[] = [
   "Points",
 ];
 
-export default function TableRow() {
+interface TableRowProps {
+  group: string;
+  index: number;
+  country: string;
+}
+
+export default function TableRow({ group, index, country }: TableRowProps) {
   return (
-    <>
-      {countries.map((team, index) => (
-        <React.Fragment key={team}>
-          <label className="text-center" key={index}>
-            {index + 1}
-          </label>
-          <CountryLabel countryName={team} filename={`B${index + 1} ${team}`} />
-          {teamStats.map((stat, index) => (
-            <label className="text-center" key={`${stat}${index}`}>
-              0
-            </label>
-          ))}
-        </React.Fragment>
+    <div className="grid grid-cols-[1fr_2fr_repeat(8,1fr)] grid-flow-col pt-2">      
+      <label className="text-center">{index + 1}</label>
+      <CountryLabel
+        countryName={country}
+        filename={`${group}${index + 1} ${country}`}
+      />
+      {teamStats.map((stat, statIndex) => (
+        <label className="text-center" key={`${stat}${statIndex}`}>
+          0
+        </label>
       ))}
-    </>
+    </div>
   );
 }

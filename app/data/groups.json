@@ -15,60 +15,60 @@
     "groupName": "C",
     "color": "#19AE47",
     "background": "#FDDC02",
-    "Country": ["Brazil", "Morocco", "Haiti", "Scotland"]
+    "countries": ["Brazil", "Morocco", "Haiti", "Scotland"]
   },
   {
     "groupName": "D",
     "color": "#FFFFFF",
     "background": "#1F2742",
-    "Country": ["United States", "Paraguay", "Australia", "Türkiye"]
+    "countries": ["United States", "Paraguay", "Australia", "Türkiye"]
   },
   {
     "groupName": "E",
     "color": "#FFFFFF",
     "background": "#31292D",
-    "Country": ["Germany", "Curaçao", "Côte d'Ivoire", "Ecuador"]
+    "countries": ["Germany", "Curaçao", "Côte d'Ivoire", "Ecuador"]
   }, 
   {
     "groupName": "F",
     "color": "#FFFFFF",
     "background": "#F36C21",
-    "Country": ["Netherlands", "Japan", "Sweden", "Tunisia"]
+    "countries": ["Netherlands", "Japan", "Sweden", "Tunisia"]
   },  
   {
     "groupName": "G",
     "color": "#1D1D1B",
     "background": "#E30613",
-    "Country": ["Belgium", "Egypt", "Iran", "New Zealand"]
+    "countries": ["Belgium", "Egypt", "Iran", "New Zealand"]
   },  
   {
     "groupName": "H",
     "color": "#FFC908",
     "background": "#FF0028",
-    "Country": ["Spain", "Cabo Verde", "Saudi Arabia", "Uruguay"]
+    "countries": ["Spain", "Cabo Verde", "Saudi Arabia", "Uruguay"]
   },  
   {
     "groupName": "I",
     "color": "#FFFFFF",
     "background": "#3D5BAE",
-    "Country": ["France", "Senegal", "Iraq", "Norway"]
+    "countries": ["France", "Senegal", "Iraq", "Norway"]
   }, 
   {
     "groupName": "J",
     "color": "#FFFFFE",
     "background": "#43A1D5",
-    "Country": ["Argentina", "Algeria", "Austria", "Jordan"]
+    "countries": ["Argentina", "Algeria", "Austria", "Jordan"]
   },  
   {
     "groupName": "K",
     "color": "#003A3D",
     "background": "#E42518",
-    "Country": ["Portugal", "DR Congo", "Uzbekistan", "Colombia"]
+    "countries": ["Portugal", "DR Congo", "Uzbekistan", "Colombia"]
   },  
   {
     "groupName": "L",
     "color": "#EA1F29",
     "background": "#FFFFFF",
-    "Country": ["England", "Croatia", "Ghana", "Panama"]
+    "countries": ["England", "Croatia", "Ghana", "Panama"]
   } 
 ]
