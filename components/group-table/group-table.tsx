@@ -6,7 +6,7 @@ import TableTitle from "./table-title";
 import TableHeaders from "./table-headers";
 import TableRow from "./table-row";
 
-export default function GroupTable() {
+export default function GroupTable(): React.JSX.Element {
   const selectedGroup = useAppSelector(
     (state: RootState) => state.group.groupName,
   );

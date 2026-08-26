@@ -2,6 +2,8 @@
 
 import { RootState } from "../../lib/store";
 import { useAppSelector } from "../../lib/hooks";
+import { JSX } from "react/jsx-runtime";
+import React from "react";
 
 const headers: string[] = [
   "Position",
@@ -16,7 +18,7 @@ const headers: string[] = [
   "Points",
 ];
 
-export default function TableHeaders() {
+export default function TableHeaders(): React.JSX.Element {
   const headerColor = useAppSelector(
     (state: RootState) => state.group.background,
   );
@@ -28,7 +30,9 @@ export default function TableHeaders() {
       {headers.map((header) => (
         //Each header is inside a flexbox inside a div
         <div
-          className={"flex justify-center mt-0.75 h-6 font-bold rounded border-2 border-x px-0.5 border-x-black"}
+          className={
+            "flex justify-center mt-0.75 h-6 font-bold rounded border-2 border-x px-0.5 border-x-black"
+          }
           style={{ color: color, background: headerColor }}
           key={header}
         >

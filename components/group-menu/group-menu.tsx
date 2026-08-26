@@ -8,7 +8,7 @@ import { getGroupNames } from "../../lib/get-groups";
 import { Group } from "../models/group";
 import Button from "./top-menu-button";
 
-export default function GroupMenu() {
+export default function GroupMenu(): React.JSX.Element {
   //Redux hooks used for main menu interaction
   const selectedGroup = useAppSelector(
     (state: RootState) => state.group.groupName,
@@ -23,7 +23,7 @@ export default function GroupMenu() {
     const newSelectedGroup: Group = groupsData.find(
       (group: Group) => "Group " + group.groupName === groupName,
     );
-    
+
     dispatch(selectGroup(newSelectedGroup));
   }
 

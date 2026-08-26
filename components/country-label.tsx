@@ -15,7 +15,7 @@ export default function CountryLabel({
   countryName,
   fileName,
   leftMargin,
-}: Country) {
+}: Country): React.JSX.Element {
   const margin: string = leftMargin;
 
   return (

@@ -1,12 +1,16 @@
-export default function GroupGames() {
+export default function GroupGames(): React.JSX.Element {
   return (
     <>
       <div className="flex flex-col lg:mx-16 xl:mx-60 h-7 mt-30 border-b-[3] border-b-black">
         <h2>Group B games</h2>
       </div>
+
+      <div>
+        <label></label>
+      </div>
       <div>
         {/*<!-- Container that controls the layout structure -->}*/}
-        <div className="w-full max-w-300 mx-auto p-6">
+        <div className="w-full max-w-300 mx-auto p-6 mt-20">
           {/*<!-- Responsive Grid: 1 column on mobile, 3 columns on desktop -->}*/}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {/*<!-- Dashboard Card Component -->}*/}

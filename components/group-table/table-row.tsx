@@ -19,9 +19,13 @@ interface TableRowProps {
   country: string;
 }
 
-export default function TableRow({ group, index, country }: TableRowProps) {
+export default function TableRow({
+  group,
+  index,
+  country,
+}: TableRowProps): React.JSX.Element {
   return (
-    <div className="grid grid-cols-[1fr_2fr_repeat(8,1fr)] grid-flow-col py-2">      
+    <div className="grid grid-cols-[1fr_2fr_repeat(8,1fr)] grid-flow-col py-2">
       <label className="text-center">{index + 1}</label>
       <CountryLabel
         countryName={country}
