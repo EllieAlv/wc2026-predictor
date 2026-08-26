@@ -1,9 +1,11 @@
+import GroupGamesHeader from "./group-games-header";
+import GroupGamesTitle from "./group-games-title";
+
 export default function GroupGames(): React.JSX.Element {
   return (
     <>
-      <div className="flex flex-col lg:mx-16 xl:mx-60 h-7 mt-30 border-b-[3] border-b-black">
-        <h2>Group B games</h2>
-      </div>
+      <GroupGamesTitle />
+      <GroupGamesHeader />
 
       <div>
         <label></label>
@@ -48,10 +50,10 @@ export default function GroupGames(): React.JSX.Element {
                   +12% from last month
                 </span>
               </div>
-            </div>{" "}
+            </div>
             {/*Card div */}
           </div>
-        </div>{" "}
+        </div>
         {/*Div for the container*/}
       </div>
     </>

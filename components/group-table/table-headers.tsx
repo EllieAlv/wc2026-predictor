@@ -2,8 +2,6 @@
 
 import { RootState } from "../../lib/store";
 import { useAppSelector } from "../../lib/hooks";
-import { JSX } from "react/jsx-runtime";
-import React from "react";
 
 const headers: string[] = [
   "Position",

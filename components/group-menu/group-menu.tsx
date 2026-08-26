@@ -14,7 +14,7 @@ export default function GroupMenu(): React.JSX.Element {
     (state: RootState) => state.group.groupName,
   );
   const dispatch = useAppDispatch();
-  const { data: groupsData, isSuccess, error } = useGetGroupsDataQuery();
+  const { data: groupsData, isSuccess, error } = useGetGroupsDataQuery("");
   //String array used to display the main menu options
   const groupNames: string[] = isSuccess ? getGroupNames(groupsData) : [];
 
