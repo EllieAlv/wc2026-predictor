@@ -18,7 +18,7 @@ export default function GroupTable(): React.JSX.Element {
     <div className="flex flex-col mx-0 lg:mx-16 xl:mx-60">
       <TableTitle>Group {selectedGroup}</TableTitle>
       <TableHeaders />
-      {countries.map((country, index) => (
+      {countries.map((country: string, index: number) => (
         <TableRow
           key={index}
           group={selectedGroup}

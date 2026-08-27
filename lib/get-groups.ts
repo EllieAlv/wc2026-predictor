@@ -7,7 +7,7 @@ export function getGroup(groupName: string): string[] {
 export function getGroupNames(groups: Group[]): string[] {
   let groupNames: string[] = [];
 
- groups.forEach((group) => {
+ groups.forEach((group: Group) => {
     groupNames.push("Group " + group.groupName);
   });
   

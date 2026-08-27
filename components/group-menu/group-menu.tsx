@@ -34,7 +34,7 @@ export default function GroupMenu(): React.JSX.Element {
   return (
     <div className="flex justify-start xl:justify-center h-16 bg-[#000000]">
       <menu className="flex flex-row items-center flex-wrap md:flex-nowrap">
-        {groupNames.map((menuItem) => {
+        {groupNames.map((menuItem: string) => {
           const isSelected = menuItem === "Group " + selectedGroup;
           const buttonClass = isSelected
             ? "text-red-500 bg-[#000000] hover:bg-[#1A1A1A]"

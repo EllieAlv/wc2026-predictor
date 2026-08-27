@@ -25,7 +25,7 @@ export default function TableHeaders(): React.JSX.Element {
   return (
     //Div for the grid that will hold the headers
     <div className="grid grid-cols-[1fr_2fr_repeat(8,1fr)] grid-flow-col mb-1">
-      {headers.map((header) => (
+      {headers.map((header: string) => (
         //Each header is inside a flexbox inside a div
         <div
           className={
