@@ -32,7 +32,7 @@ export default function TableRow({
         fileName={`${group}${index + 1} ${country}`}
         leftMargin={"4rem"}
       />
-      {teamStats.map((stat, statIndex) => (
+      {teamStats.map((stat: string, statIndex: number) => (
         <label className="text-center" key={`${stat}${statIndex}`}>
           0
         </label>

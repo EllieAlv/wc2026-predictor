@@ -12,14 +12,14 @@
     "phase": "group A",
     "date": "June 11, 2026",
     "team1": "South Korea",
-    "team2": "Czech Republic",
+    "team2": "Czechia",
     "location": "Estadio Akron, Zapopan"
   },
   {
     "match_id": "25",
     "phase": "group A",
     "date": "June 18, 2026",
-    "team1": "Czech Republic",
+    "team1": "Czechia",
     "team2": "South Africa",
     "location": "Mercedes-Benz Stadium, Atlanta"
   },
@@ -35,7 +35,7 @@
     "match_id": "53",
     "phase": "group A",
     "date": "June 24, 2026",
-    "team1": "Czech Republic",
+    "team1": "Czechia",
     "team2": "Mexico",
     "location": "Estadio Azteca, Mexico City"
   },
@@ -156,7 +156,7 @@
     "phase": "group D",
     "date": "June 13, 2026",
     "team1": "Australia",
-    "team2": "Turkey",
+    "team2": "Türkiye",
     "location": "BC Place, Vancouver"
   },
   {
@@ -171,7 +171,7 @@
     "match_id": "31",
     "phase": "group D",
     "date": "June 19, 2026",
-    "team1": "Turkey",
+    "team1": "Türkiye",
     "team2": "Paraguay",
     "location": "Levi's Stadium, Santa Clara"
   },
@@ -179,7 +179,7 @@
     "match_id": "59",
     "phase": "group D",
     "date": "June 25, 2026",
-    "team1": "Turkey",
+    "team1": "Türkiye",
     "team2": "United States",
     "location": "SoFi Stadium, Inglewood"
   },
@@ -203,7 +203,7 @@
     "match_id": "9",
     "phase": "group E",
     "date": "June 14, 2026",
-    "team1": "Ivory Coast",
+    "team1": "Côte d'Ivoire",
     "team2": "Ecuador",
     "location": "Lincoln Financial Field, Philadelphia"
   },
@@ -212,7 +212,7 @@
     "phase": "group E",
     "date": "June 20, 2026",
     "team1": "Germany",
-    "team2": "Ivory Coast",
+    "team2": "Côte d'Ivoire",
     "location": "BMO Field, Toronto"
   },
   {
@@ -228,7 +228,7 @@
     "phase": "group E",
     "date": "June 25, 2026",
     "team1": "Curaçao",
-    "team2": "Ivory Coast",
+    "team2": "Côte d'Ivoire",
     "location": "Lincoln Financial Field, Philadelphia"
   },
   {
@@ -340,7 +340,7 @@
     "phase": "group H",
     "date": "June 15, 2026",
     "team1": "Spain",
-    "team2": "Cape Verde",
+    "team2": "Cabo Verde",
     "location": "Mercedes-Benz Stadium, Atlanta"
   },
   {
@@ -364,14 +364,14 @@
     "phase": "group H",
     "date": "June 21, 2026",
     "team1": "Uruguay",
-    "team2": "Cape Verde",
+    "team2": "Cabo Verde",
     "location": "Hard Rock Stadium, Miami Gardens"
   },
   {
     "match_id": "65",
     "phase": "group H",
     "date": "June 26, 2026",
-    "team1": "Cape Verde",
+    "team1": "Cabo Verde",
     "team2": "Saudi Arabia",
     "location": "NRG Stadium, Houston"
   },

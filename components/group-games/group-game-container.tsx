@@ -2,10 +2,9 @@
 
 import { useGetGroupsDataQuery } from "../../lib/features/fetchGroupsApi";
 import { RootState } from "../../lib/store";
-import { useAppSelector, useAppDispatch } from "../../lib/hooks";
+import { useAppSelector } from "../../lib/hooks";
 import { Game } from "../models/game";
 import GroupGameRow from "./group-game-row";
-import { group } from "node:console";
 
 export default function GroupGamesContainer(): React.JSX.Element {
   const { data: gamesList, isSuccess: haveGamesList } = useGetGroupsDataQuery(
@@ -22,5 +21,5 @@ export default function GroupGamesContainer(): React.JSX.Element {
       ))
     : null;
 
-  return <div>{groupGames.length !== 0 && groupGames.map((game: Game, index)=><GroupGameRow key={index} />)}</div>;
+  return <div>{groupGames.length !== 0 && groupGames.map((game: Game, index: number)=><GroupGameRow key={index} game={game} index={index} />)}</div>;
 }
