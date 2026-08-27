@@ -7,7 +7,6 @@ import { selectGroup } from "../../lib/features/groupSlice";
 import { getGroupNames } from "../../lib/get-groups";
 import { Group } from "../models/group";
 import Button from "./top-menu-button";
-import { loadGames } from "../../lib/features/gamesSlice";
 
 export default function GroupMenu(): React.JSX.Element {
   //Redux hooks used for main menu interaction
@@ -20,13 +19,8 @@ export default function GroupMenu(): React.JSX.Element {
     isSuccess: haveGroupData,
     error,
   } = useGetGroupsDataQuery("groups.json");
-  const { data: gamesList, isSuccess: haveGamesList } = useGetGroupsDataQuery(
-      "list of matches.json",
-    );
   //String array used to display the main menu options
   const groupNames: string[] = haveGroupData ? getGroupNames(groupsData) : [];
-
-  haveGamesList && dispatch(loadGames(gamesList));
 
   //Gives red text to the selected button and white text to the others
   function handleMenuClick(groupName: string) {
