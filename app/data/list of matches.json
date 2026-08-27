@@ -2,7 +2,7 @@
   {
     "match_id": "1",
     "phase": "group A",
-    "time": "June 11, 2026",
+    "date": "June 11, 2026",
     "team1": "Mexico",
     "team2": "South Africa",
     "location": "Estadio Azteca, Mexico City"
@@ -10,7 +10,7 @@
   {
     "match_id": "2",
     "phase": "group A",
-    "time": "June 11, 2026",
+    "date": "June 11, 2026",
     "team1": "South Korea",
     "team2": "Czech Republic",
     "location": "Estadio Akron, Zapopan"
@@ -18,7 +18,7 @@
   {
     "match_id": "25",
     "phase": "group A",
-    "time": "June 18, 2026",
+    "date": "June 18, 2026",
     "team1": "Czech Republic",
     "team2": "South Africa",
     "location": "Mercedes-Benz Stadium, Atlanta"
@@ -26,7 +26,7 @@
   {
     "match_id": "28",
     "phase": "group A",
-    "time": "June 18, 2026",
+    "date": "June 18, 2026",
     "team1": "Mexico",
     "team2": "South Korea",
     "location": "Estadio Akron, Zapopan"
@@ -34,7 +34,7 @@
   {
     "match_id": "53",
     "phase": "group A",
-    "time": "June 24, 2026",
+    "date": "June 24, 2026",
     "team1": "Czech Republic",
     "team2": "Mexico",
     "location": "Estadio Azteca, Mexico City"
@@ -42,7 +42,7 @@
   {
     "match_id": "54",
     "phase": "group A",
-    "time": "June 24, 2026",
+    "date": "June 24, 2026",
     "team1": "South Africa",
     "team2": "South Korea",
     "location": "Estadio BBVA, Guadalupe"
@@ -50,7 +50,7 @@
   {
     "match_id": "3",
     "phase": "group B",
-    "time": "June 12, 2026",
+    "date": "June 12, 2026",
     "team1": "Canada",
     "team2": "Bosnia and Herzegovina",
     "location": "BMO Field, Toronto"
@@ -58,7 +58,7 @@
   {
     "match_id": "8",
     "phase": "group B",
-    "time": "June 13, 2026",
+    "date": "June 13, 2026",
     "team1": "Qatar",
     "team2": "Switzerland",
     "location": "Levi's Stadium, Santa Clara"
@@ -66,7 +66,7 @@
   {
     "match_id": "26",
     "phase": "group B",
-    "time": "June 18, 2026",
+    "date": "June 18, 2026",
     "team1": "Switzerland",
     "team2": "Bosnia and Herzegovina",
     "location": "SoFi Stadium, Inglewood"
@@ -74,7 +74,7 @@
   {
     "match_id": "27",
     "phase": "group B",
-    "time": "June 18, 2026",
+    "date": "June 18, 2026",
     "team1": "Canada",
     "team2": "Qatar",
     "location": "BC Place, Vancouver"
@@ -82,7 +82,7 @@
   {
     "match_id": "51",
     "phase": "group B",
-    "time": "June 24, 2026",
+    "date": "June 24, 2026",
     "team1": "Switzerland",
     "team2": "Canada",
     "location": "BC Place, Vancouver"
@@ -90,7 +90,7 @@
   {
     "match_id": "52",
     "phase": "group B",
-    "time": "June 24, 2026",
+    "date": "June 24, 2026",
     "team1": "Bosnia and Herzegovina",
     "team2": "Qatar",
     "location": "Lumen Field, Seattle"
@@ -98,7 +98,7 @@
   {
     "match_id": "7",
     "phase": "group C",
-    "time": "June 13, 2026",
+    "date": "June 13, 2026",
     "team1": "Brazil",
     "team2": "Morocco",
     "location": "MetLife Stadium, East Rutherford"
@@ -106,7 +106,7 @@
   {
     "match_id": "5",
     "phase": "group C",
-    "time": "June 13, 2026",
+    "date": "June 13, 2026",
     "team1": "Haiti",
     "team2": "Scotland",
     "location": "Gillette Stadium, Foxborough"
@@ -114,7 +114,7 @@
   {
     "match_id": "30",
     "phase": "group C",
-    "time": "June 19, 2026",
+    "date": "June 19, 2026",
     "team1": "Scotland",
     "team2": "Morocco",
     "location": "Gillette Stadium, Foxborough"
@@ -122,7 +122,7 @@
   {
     "match_id": "29",
     "phase": "group C",
-    "time": "June 19, 2026",
+    "date": "June 19, 2026",
     "team1": "Brazil",
     "team2": "Haiti",
     "location": "Lincoln Financial Field, Philadelphia"
@@ -130,7 +130,7 @@
   {
     "match_id": "49",
     "phase": "group C",
-    "time": "June 24, 2026",
+    "date": "June 24, 2026",
     "team1": "Scotland",
     "team2": "Brazil",
     "location": "Hard Rock Stadium, Miami Gardens"
@@ -138,7 +138,7 @@
   {
     "match_id": "50",
     "phase": "group C",
-    "time": "June 24, 2026",
+    "date": "June 24, 2026",
     "team1": "Morocco",
     "team2": "Haiti",
     "location": "Mercedes-Benz Stadium, Atlanta"
@@ -146,7 +146,7 @@
   {
     "match_id": "4",
     "phase": "group D",
-    "time": "June 12, 2026",
+    "date": "June 12, 2026",
     "team1": "United States",
     "team2": "Paraguay",
     "location": "SoFi Stadium, Inglewood"
@@ -154,7 +154,7 @@
   {
     "match_id": "6",
     "phase": "group D",
-    "time": "June 13, 2026",
+    "date": "June 13, 2026",
     "team1": "Australia",
     "team2": "Turkey",
     "location": "BC Place, Vancouver"
@@ -162,7 +162,7 @@
   {
     "match_id": "32",
     "phase": "group D",
-    "time": "June 19, 2026",
+    "date": "June 19, 2026",
     "team1": "United States",
     "team2": "Australia",
     "location": "Lumen Field, Seattle"
@@ -170,7 +170,7 @@
   {
     "match_id": "31",
     "phase": "group D",
-    "time": "June 19, 2026",
+    "date": "June 19, 2026",
     "team1": "Turkey",
     "team2": "Paraguay",
     "location": "Levi's Stadium, Santa Clara"
@@ -178,7 +178,7 @@
   {
     "match_id": "59",
     "phase": "group D",
-    "time": "June 25, 2026",
+    "date": "June 25, 2026",
     "team1": "Turkey",
     "team2": "United States",
     "location": "SoFi Stadium, Inglewood"
@@ -186,7 +186,7 @@
   {
     "match_id": "60",
     "phase": "group D",
-    "time": "June 25, 2026",
+    "date": "June 25, 2026",
     "team1": "Paraguay",
     "team2": "Australia",
     "location": "Levi's Stadium, Santa Clara"
@@ -194,7 +194,7 @@
   {
     "match_id": "10",
     "phase": "group E",
-    "time": "June 14, 2026",
+    "date": "June 14, 2026",
     "team1": "Germany",
     "team2": "Curaçao",
     "location": "NRG Stadium, Houston"
@@ -202,7 +202,7 @@
   {
     "match_id": "9",
     "phase": "group E",
-    "time": "June 14, 2026",
+    "date": "June 14, 2026",
     "team1": "Ivory Coast",
     "team2": "Ecuador",
     "location": "Lincoln Financial Field, Philadelphia"
@@ -210,7 +210,7 @@
   {
     "match_id": "33",
     "phase": "group E",
-    "time": "June 20, 2026",
+    "date": "June 20, 2026",
     "team1": "Germany",
     "team2": "Ivory Coast",
     "location": "BMO Field, Toronto"
@@ -218,7 +218,7 @@
   {
     "match_id": "34",
     "phase": "group E",
-    "time": "June 20, 2026",
+    "date": "June 20, 2026",
     "team1": "Ecuador",
     "team2": "Curaçao",
     "location": "Arrowhead Stadium, Kansas City"
@@ -226,7 +226,7 @@
   {
     "match_id": "55",
     "phase": "group E",
-    "time": "June 25, 2026",
+    "date": "June 25, 2026",
     "team1": "Curaçao",
     "team2": "Ivory Coast",
     "location": "Lincoln Financial Field, Philadelphia"
@@ -234,7 +234,7 @@
   {
     "match_id": "56",
     "phase": "group E",
-    "time": "June 25, 2026",
+    "date": "June 25, 2026",
     "team1": "Ecuador",
     "team2": "Germany",
     "location": "MetLife Stadium, East Rutherford"
@@ -242,7 +242,7 @@
   {
     "match_id": "11",
     "phase": "group F",
-    "time": "June 14, 2026",
+    "date": "June 14, 2026",
     "team1": "Netherlands",
     "team2": "Japan",
     "location": "AT&T Stadium, Arlington"
@@ -250,7 +250,7 @@
   {
     "match_id": "12",
     "phase": "group F",
-    "time": "June 14, 2026",
+    "date": "June 14, 2026",
     "team1": "Sweden",
     "team2": "Tunisia",
     "location": "Estadio BBVA, Guadalupe"
@@ -258,7 +258,7 @@
   {
     "match_id": "35",
     "phase": "group F",
-    "time": "June 20, 2026",
+    "date": "June 20, 2026",
     "team1": "Netherlands",
     "team2": "Sweden",
     "location": "NRG Stadium, Houston"
@@ -266,7 +266,7 @@
   {
     "match_id": "36",
     "phase": "group F",
-    "time": "June 20, 2026",
+    "date": "June 20, 2026",
     "team1": "Tunisia",
     "team2": "Japan",
     "location": "Estadio BBVA, Guadalupe"
@@ -274,7 +274,7 @@
   {
     "match_id": "57",
     "phase": "group F",
-    "time": "June 25, 2026",
+    "date": "June 25, 2026",
     "team1": "Japan",
     "team2": "Sweden",
     "location": "AT&T Stadium, Arlington"
@@ -282,7 +282,7 @@
   {
     "match_id": "58",
     "phase": "group F",
-    "time": "June 25, 2026",
+    "date": "June 25, 2026",
     "team1": "Tunisia",
     "team2": "Netherlands",
     "location": "Arrowhead Stadium, Kansas City"
@@ -290,7 +290,7 @@
   {
     "match_id": "16",
     "phase": "group G",
-    "time": "June 15, 2026",
+    "date": "June 15, 2026",
     "team1": "Belgium",
     "team2": "Egypt",
     "location": "Lumen Field, Seattle"
@@ -298,7 +298,7 @@
   {
     "match_id": "15",
     "phase": "group G",
-    "time": "June 15, 2026",
+    "date": "June 15, 2026",
     "team1": "Iran",
     "team2": "New Zealand",
     "location": "SoFi Stadium, Inglewood"
@@ -306,7 +306,7 @@
   {
     "match_id": "39",
     "phase": "group G",
-    "time": "June 21, 2026",
+    "date": "June 21, 2026",
     "team1": "Belgium",
     "team2": "Iran",
     "location": "SoFi Stadium, Inglewood"
@@ -314,7 +314,7 @@
   {
     "match_id": "40",
     "phase": "group G",
-    "time": "June 21, 2026",
+    "date": "June 21, 2026",
     "team1": "New Zealand",
     "team2": "Egypt",
     "location": "BC Place, Vancouver"
@@ -322,7 +322,7 @@
   {
     "match_id": "63",
     "phase": "group G",
-    "time": "June 26, 2026",
+    "date": "June 26, 2026",
     "team1": "Egypt",
     "team2": "Iran",
     "location": "Lumen Field, Seattle"
@@ -330,7 +330,7 @@
   {
     "match_id": "64",
     "phase": "group G",
-    "time": "June 26, 2026",
+    "date": "June 26, 2026",
     "team1": "New Zealand",
     "team2": "Belgium",
     "location": "BC Place, Vancouver"
@@ -338,7 +338,7 @@
   {
     "match_id": "14",
     "phase": "group H",
-    "time": "June 15, 2026",
+    "date": "June 15, 2026",
     "team1": "Spain",
     "team2": "Cape Verde",
     "location": "Mercedes-Benz Stadium, Atlanta"
@@ -346,7 +346,7 @@
   {
     "match_id": "13",
     "phase": "group H",
-    "time": "June 15, 2026",
+    "date": "June 15, 2026",
     "team1": "Saudi Arabia",
     "team2": "Uruguay",
     "location": "Hard Rock Stadium, Miami Gardens"
@@ -354,7 +354,7 @@
   {
     "match_id": "38",
     "phase": "group H",
-    "time": "June 21, 2026",
+    "date": "June 21, 2026",
     "team1": "Spain",
     "team2": "Saudi Arabia",
     "location": "Mercedes-Benz Stadium, Atlanta"
@@ -362,7 +362,7 @@
   {
     "match_id": "37",
     "phase": "group H",
-    "time": "June 21, 2026",
+    "date": "June 21, 2026",
     "team1": "Uruguay",
     "team2": "Cape Verde",
     "location": "Hard Rock Stadium, Miami Gardens"
@@ -370,7 +370,7 @@
   {
     "match_id": "65",
     "phase": "group H",
-    "time": "June 26, 2026",
+    "date": "June 26, 2026",
     "team1": "Cape Verde",
     "team2": "Saudi Arabia",
     "location": "NRG Stadium, Houston"
@@ -378,7 +378,7 @@
   {
     "match_id": "66",
     "phase": "group H",
-    "time": "June 26, 2026",
+    "date": "June 26, 2026",
     "team1": "Uruguay",
     "team2": "Spain",
     "location": "Estadio Akron, Zapopan"
@@ -386,7 +386,7 @@
   {
     "match_id": "17",
     "phase": "group I",
-    "time": "June 16, 2026",
+    "date": "June 16, 2026",
     "team1": "Franc",
     "team2": "Senegal",
     "location": "MetLife Stadium, East Rutherford"
@@ -394,7 +394,7 @@
   {
     "match_id": "18",
     "phase": "group I",
-    "time": "June 16, 2026",
+    "date": "June 16, 2026",
     "team1": "Iraq",
     "team2": "Norway",
     "location": "Gillette Stadium, Foxborough"
@@ -402,7 +402,7 @@
   {
     "match_id": "42",
     "phase": "group I",
-    "time": "June 22, 2026",
+    "date": "June 22, 2026",
     "team1": "France",
     "team2": "Iraq",
     "location": "Lincoln Financial Field, Philadelphia"
@@ -410,7 +410,7 @@
   {
     "match_id": "41",
     "phase": "group I",
-    "time": "June 22, 2026",
+    "date": "June 22, 2026",
     "team1": "Norway",
     "team2": "Senegal",
     "location": "MetLife Stadium, East Rutherford"
@@ -418,7 +418,7 @@
   {
     "match_id": "61",
     "phase": "group I",
-    "time": "June 26, 2026",
+    "date": "June 26, 2026",
     "team1": "Norway",
     "team2": "France",
     "location": "Gillette Stadium, Foxborough"
@@ -426,7 +426,7 @@
   {
     "match_id": "62",
     "phase": "group I",
-    "time": "June 26, 2026",
+    "date": "June 26, 2026",
     "team1": "Senegal",
     "team2": "Iraq",
     "location": "BMO Field, Toronto"
@@ -434,7 +434,7 @@
   {
     "match_id": "19",
     "phase": "group J",
-    "time": "June 16, 2026",
+    "date": "June 16, 2026",
     "team1": "Argentina",
     "team2": "Algeria",
     "location": "Arrowhead Stadium, Kansas City"
@@ -442,7 +442,7 @@
   {
     "match_id": "20",
     "phase": "group J",
-    "time": "June 16, 2026",
+    "date": "June 16, 2026",
     "team1": "Austria",
     "team2": "Jordan",
     "location": "Levi's Stadium, Santa Clara"
@@ -450,7 +450,7 @@
   {
     "match_id": "43",
     "phase": "group J",
-    "time": "June 22, 2026",
+    "date": "June 22, 2026",
     "team1": "Argentina",
     "team2": "Austria",
     "location": "AT&T Stadium, Arlington"
@@ -458,7 +458,7 @@
   {
     "match_id": "44",
     "phase": "group J",
-    "time": "June 22, 2026",
+    "date": "June 22, 2026",
     "team1": "Jordan",
     "team2": "Algeria",
     "location": "Levi's Stadium, Santa Clara"
@@ -466,7 +466,7 @@
   {
     "match_id": "69",
     "phase": "group J",
-    "time": "June 27, 2026",
+    "date": "June 27, 2026",
     "team1": "Algeria",
     "team2": "Austria",
     "location": "Arrowhead Stadium, Kansas City"
@@ -474,7 +474,7 @@
   {
     "match_id": "70",
     "phase": "group J",
-    "time": "June 27, 2026",
+    "date": "June 27, 2026",
     "team1": "Jordan",
     "team2": "Argentina",
     "location": "AT&T Stadium, Arlington"
@@ -482,7 +482,7 @@
   {
     "match_id": "23",
     "phase": "group K",
-    "time": "June 17, 2026",
+    "date": "June 17, 2026",
     "team1": "Portugal",
     "team2": "DR Congo",
     "location": "NRG Stadium, Houston"
@@ -490,7 +490,7 @@
   {
     "match_id": "24",
     "phase": "group K",
-    "time": "June 17, 2026",
+    "date": "June 17, 2026",
     "team1": "Uzbekistan",
     "team2": "Colombia",
     "location": "Estadio Azteca, Mexico City"
@@ -498,7 +498,7 @@
   {
     "match_id": "47",
     "phase": "group K",
-    "time": "June 23, 2026",
+    "date": "June 23, 2026",
     "team1": "Portugal",
     "team2": "Uzbekistan",
     "location": "NRG Stadium, Houston"
@@ -506,7 +506,7 @@
   {
     "match_id": "48",
     "phase": "group K",
-    "time": "June 23, 2026",
+    "date": "June 23, 2026",
     "team1": "Colombia",
     "team2": "DR Congo",
     "location": "Estadio Akron, Zapopan"
@@ -514,7 +514,7 @@
   {
     "match_id": "71",
     "phase": "group K",
-    "time": "June 27, 2026",
+    "date": "June 27, 2026",
     "team1": "Colombia",
     "team2": "Portugal",
     "location": "Hard Rock Stadium, Miami Gardens"
@@ -522,7 +522,7 @@
   {
     "match_id": "72",
     "phase": "group K",
-    "time": "June 27, 2026",
+    "date": "June 27, 2026",
     "team1": "DR Congo",
     "team2": "Uzbekistan",
     "location": "Mercedes-Benz Stadium, Atlanta"
@@ -530,7 +530,7 @@
   {
     "match_id": "22",
     "phase": "group L",
-    "time": "June 17, 2026",
+    "date": "June 17, 2026",
     "team1": "England",
     "team2": "Croatia",
     "location": "AT&T Stadium, Arlington"
@@ -538,7 +538,7 @@
   {
     "match_id": "21",
     "phase": "group L",
-    "time": "June 17, 2026",
+    "date": "June 17, 2026",
     "team1": "Ghana",
     "team2": "Panama",
     "location": "BMO Field, Toronto"
@@ -546,7 +546,7 @@
   {
     "match_id": "45",
     "phase": "group L",
-    "time": "June 23, 2026",
+    "date": "June 23, 2026",
     "team1": "England",
     "team2": "Ghana",
     "location": "Gillette Stadium, Foxborough"
@@ -554,7 +554,7 @@
   {
     "match_id": "46",
     "phase": "group L",
-    "time": "June 23, 2026",
+    "date": "June 23, 2026",
     "team1": "Panama",
     "team2": "Croatia",
     "location": "BMO Field, Toronto"
@@ -562,7 +562,7 @@
   {
     "match_id": "67",
     "phase": "group L",
-    "time": "June 27, 2026",
+    "date": "June 27, 2026",
     "team1": "Panama",
     "team2": "England",
     "location": "MetLife Stadium, East Rutherford"
@@ -570,7 +570,7 @@
   {
     "match_id": "68",
     "phase": "group L",
-    "time": "June 27, 2026",
+    "date": "June 27, 2026",
     "team1": "Croatia",
     "team2": "Ghana",
     "location": "Lincoln Financial Field, Philadelphia"
@@ -578,7 +578,7 @@
   {
     "match_id": "73",
     "phase": "Ro 32",
-    "time": "June 28, 2026",
+    "date": "June 28, 2026",
     "team1": "Runner-up Group A",
     "team2": "Runner-up Group B",
     "location": "SoFi Stadium, Inglewood"
@@ -586,7 +586,7 @@
   {
     "match_id": "76",
     "phase": "Ro 32",
-    "time": "June 29, 2026",
+    "date": "June 29, 2026",
     "team1": "Winner Group C",
     "team2": "Runner-up Group F",
     "location": "NRG Stadium, Houston"
@@ -594,7 +594,7 @@
   {
     "match_id": "74",
     "phase": "Ro 32",
-    "time": "June 29, 2026",
+    "date": "June 29, 2026",
     "team1": "Winner Group E",
     "team2": "3rd Group A/B/C/D/F",
     "location": "Gillette Stadium, Foxborough"
@@ -602,7 +602,7 @@
   {
     "match_id": "75",
     "phase": "Ro 32",
-    "time": "June 29, 2026",
+    "date": "June 29, 2026",
     "team1": "Winner Group F",
     "team2": "Runner-up Group C",
     "location": "Estadio BBVA, Guadalupe"
@@ -610,7 +610,7 @@
   {
     "match_id": "78",
     "phase": "Ro 32",
-    "time": "June 30, 2026",
+    "date": "June 30, 2026",
     "team1": "Runner-up Group E",
     "team2": "Runner-up Group I",
     "location": "AT&T Stadium, Arlington"
@@ -618,7 +618,7 @@
   {
     "match_id": "77",
     "phase": "Ro 32",
-    "time": "June 30, 2026",
+    "date": "June 30, 2026",
     "team1": "Winner Group I",
     "team2": "3rd Group C/D/F/G/H",
     "location": "MetLife Stadium, East Rutherford"
@@ -626,7 +626,7 @@
   {
     "match_id": "79",
     "phase": "Ro 32",
-    "time": "June 30, 2026",
+    "date": "June 30, 2026",
     "team1": "Winner Group A",
     "team2": "3rd Group C/E/F/H/I",
     "location": "Estadio Azteca, Mexico City"
@@ -634,7 +634,7 @@
   {
     "match_id": "80",
     "phase": "Ro 32",
-    "time": "July 1, 2026",
+    "date": "July 1, 2026",
     "team1": "Winner Group L",
     "team2": "3rd Group E/H/I/J/K",
     "location": "Mercedes-Benz Stadium, Atlanta"
@@ -642,7 +642,7 @@
   {
     "match_id": "82",
     "phase": "Ro 32",
-    "time": "July 1, 2026",
+    "date": "July 1, 2026",
     "team1": "Winner Group G",
     "team2": "3rd Group A/E/H/I/J",
     "location": "Lumen Field, Seattle"
@@ -650,7 +650,7 @@
   {
     "match_id": "81",
     "phase": "Ro 32",
-    "time": "July 1, 2026",
+    "date": "July 1, 2026",
     "team1": "Winner Group D",
     "team2": "3rd Group B/E/F/I/J",
     "location": "Levi's Stadium, Santa Clara"
@@ -658,7 +658,7 @@
   {
     "match_id": "84",
     "phase": "Ro 32",
-    "time": "July 2, 2026",
+    "date": "July 2, 2026",
     "team1": "Winner Group H",
     "team2": "Runner-up Group J",
     "location": "SoFi Stadium, Inglewood"
@@ -666,7 +666,7 @@
   {
     "match_id": "83",
     "phase": "Ro 32",
-    "time": "July 2, 2026",
+    "date": "July 2, 2026",
     "team1": "Runner-up Group K",
     "team2": "Runner-up Group L",
     "location": "BMO Field, Toronto"
@@ -674,7 +674,7 @@
   {
     "match_id": "85",
     "phase": "Ro 32",
-    "time": "July 2, 2026",
+    "date": "July 2, 2026",
     "team1": "Winner Group B",
     "team2": "3rd Group E/F/G/I/J",
     "location": "BC Place, Vancouver"
@@ -682,7 +682,7 @@
   {
     "match_id": "88",
     "phase": "Ro 32",
-    "time": "July 3, 2026",
+    "date": "July 3, 2026",
     "team1": "Runner-up Group D",
     "team2": "Runner-up Group G",
     "location": "AT&T Stadium, Arlington"
@@ -690,7 +690,7 @@
   {
     "match_id": "86",
     "phase": "Ro 32",
-    "time": "July 3, 2026",
+    "date": "July 3, 2026",
     "team1": "Winner Group J",
     "team2": "Runner-up Group H",
     "location": "Hard Rock Stadium, Miami Gardens"
@@ -698,7 +698,7 @@
   {
     "match_id": "87",
     "phase": "Ro 32",
-    "time": "July 3, 2026",
+    "date": "July 3, 2026",
     "team1": "Winner Group K",
     "team2": "3rd Group D/E/I/J/L",
     "location": "Arrowhead Stadium, Kansas City"
@@ -706,7 +706,7 @@
   {
     "match_id": "90",
     "phase": "Ro 16",
-    "time": "July 4, 2026",
+    "date": "July 4, 2026",
     "team1": "Winner Match 73",
     "team2": "Winner Match 75",
     "location": "NRG Stadium, Houston"
@@ -714,7 +714,7 @@
   {
     "match_id": "89",
     "phase": "Ro 16",
-    "time": "July 4, 2026",
+    "date": "July 4, 2026",
     "team1": "Winner Match 74",
     "team2": "Winner Match 77",
     "location": "Lincoln Financial Field, Philadelphia"
@@ -722,7 +722,7 @@
   {
     "match_id": "91",
     "phase": "Ro 16",
-    "time": "July 5, 2026",
+    "date": "July 5, 2026",
     "team1": "Winner Match 76",
     "team2": "Winner Match 78",
     "location": "MetLife Stadium, East Rutherford"
@@ -730,7 +730,7 @@
   {
     "match_id": "92",
     "phase": "Ro 16",
-    "time": "July 5, 2026",
+    "date": "July 5, 2026",
     "team1": "Winner Match 79",
     "team2": "Winner Match 80",
     "location": "Estadio Azteca, Mexico City"
@@ -738,7 +738,7 @@
   {
     "match_id": "93",
     "phase": "Ro 16",
-    "time": "July 6, 2026",
+    "date": "July 6, 2026",
     "team1": "Winner Match 83",
     "team2": "Winner Match 84",
     "location": "AT&T Stadium, Arlington"
@@ -746,7 +746,7 @@
   {
     "match_id": "94",
     "phase": "Ro 16",
-    "time": "July 6, 2026",
+    "date": "July 6, 2026",
     "team1": "Winner Match 81",
     "team2": "Winner Match 82",
     "location": "Lumen Field, Seattle"
@@ -754,7 +754,7 @@
   {
     "match_id": "95",
     "phase": "Ro 16",
-    "time": "July 7, 2026",
+    "date": "July 7, 2026",
     "team1": "Winner Match 86",
     "team2": "Winner Match 88",
     "location": "Mercedes-Benz Stadium, Atlanta"
@@ -762,7 +762,7 @@
   {
     "match_id": "96",
     "phase": "Ro 16",
-    "time": "July 7, 2026",
+    "date": "July 7, 2026",
     "team1": "Winner Match 85",
     "team2": "Winner Match 87",
     "location": "BC Place, Vancouver"
@@ -770,7 +770,7 @@
   {
     "match_id": "97",
     "phase": "Ro 8",
-    "time": "July 9, 2026",
+    "date": "July 9, 2026",
     "team1": "Winner Match 89",
     "team2": "Winner Match 90",
     "location": "Gillette Stadium, Foxborough"
@@ -778,7 +778,7 @@
   {
     "match_id": "98",
     "phase": "Ro 8",
-    "time": "July 10, 2026",
+    "date": "July 10, 2026",
     "team1": "Winner Match 93",
     "team2": "Winner Match 94",
     "location": "SoFi Stadium, Inglewood"
@@ -786,7 +786,7 @@
   {
     "match_id": "99",
     "phase": "Ro 8",
-    "time": "July 11, 2026",
+    "date": "July 11, 2026",
     "team1": "Winner Match 91",
     "team2": "Winner Match 92",
     "location": "Hard Rock Stadium, Miami Gardens"
@@ -794,7 +794,7 @@
   {
     "match_id": "100",
     "phase": "Ro 8",
-    "time": "July 11, 2026",
+    "date": "July 11, 2026",
     "team1": "Winner Match 95",
     "team2": "Winner Match 96",
     "location": "Arrowhead Stadium, Kansas City"
@@ -802,7 +802,7 @@
   {
     "match_id": "101",
     "phase": "Ro 4",
-    "time": "July 14, 2026",
+    "date": "July 14, 2026",
     "team1": "Winner Match 97",
     "team2": "Winner Match 98",
     "location": "AT&T Stadium, Arlington"
@@ -810,7 +810,7 @@
   {
     "match_id": "102",
     "phase": "Ro 4",
-    "time": "July 15, 2026",
+    "date": "July 15, 2026",
     "team1": "Winner Match 99",
     "team2": "Winner Match 100",
     "location": "Mercedes-Benz Stadium, Atlanta"
@@ -818,7 +818,7 @@
   {
     "match_id": "103",
     "phase": "3rd place",
-    "time": "July 18, 2026",
+    "date": "July 18, 2026",
     "team1": "Loser Match 101",
     "team2": "Loser Match 102",
     "location": "Hard Rock Stadium, Miami Gardens"
@@ -826,7 +826,7 @@
   {
     "match_id": "104",
     "phase": "Final",
-    "time": "July 19, 2026",
+    "date": "July 19, 2026",
     "team1": "Winner Match 101",
     "team2": "Winner Match 102",
     "location": "MetLife Stadium, East Rutherford"

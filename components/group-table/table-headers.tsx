@@ -17,10 +17,10 @@ const headers: string[] = [
 ];
 
 export default function TableHeaders(): React.JSX.Element {
-  const headerColor = useAppSelector(
+  const headerColor: string = useAppSelector(
     (state: RootState) => state.group.background,
   );
-  const color = useAppSelector((state: RootState) => state.group.color);
+  const color: string = useAppSelector((state: RootState) => state.group.color);
 
   return (
     //Div for the grid that will hold the headers

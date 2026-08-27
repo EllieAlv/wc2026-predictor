@@ -1,11 +1,15 @@
+import GroupGamesContainer from "./group-game-container";
 import GroupGamesHeader from "./group-games-header";
 import GroupGamesTitle from "./group-games-title";
 
 export default function GroupGames(): React.JSX.Element {
   return (
     <>
-      <GroupGamesTitle />
-      <GroupGamesHeader />
+      <div className="flex flex-col mx-0 lg:mx-16 xl:mx-60">
+        <GroupGamesTitle />
+        <GroupGamesHeader />
+        <GroupGamesContainer />
+      </div>
 
       <div>
         <label></label>

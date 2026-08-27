@@ -2,6 +2,7 @@ import { configureStore } from "@reduxjs/toolkit";
 import { fetchGroupsApi } from "./features/fetchGroupsApi";
 import groupReducer from "./features/groupSlice";
 import groupsReducer from "./features/groupsSlice";
+import gameReducer from "./features/gamesSlice";
 
 //Create store to hold reducers
 export const makeStore = () =>
@@ -9,6 +10,7 @@ export const makeStore = () =>
     reducer: {
       group: groupReducer,
       groups: groupsReducer,
+      games: gameReducer,
       [fetchGroupsApi.reducerPath]: fetchGroupsApi.reducer,
     },
     middleware: (getDefaultMiddleware) =>

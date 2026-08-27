@@ -1,5 +1,4 @@
 import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
-import { Group } from "../../components/models/group";
 
 export const fetchGroupsApi = createApi({
   reducerPath: "fetchGroupsApi",
@@ -7,7 +6,7 @@ export const fetchGroupsApi = createApi({
     baseUrl: process.env.NEXT_PUBLIC_API_GATEWAY_URL,
   }),
   endpoints: (build) => ({
-    getGroupsData: build.query({ query: (name) => "/groups.json" }),
+    getGroupsData: build.query({ query: (name) => `/${name}` }),
   }),
 });
 

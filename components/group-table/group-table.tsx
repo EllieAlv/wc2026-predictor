@@ -7,10 +7,12 @@ import TableHeaders from "./table-headers";
 import TableRow from "./table-row";
 
 export default function GroupTable(): React.JSX.Element {
-  const selectedGroup = useAppSelector(
+  const selectedGroup: string = useAppSelector(
     (state: RootState) => state.group.groupName,
   );
-  const countries = useAppSelector((state: RootState) => state.group.countries);
+  const countries: string[] = useAppSelector(
+    (state: RootState) => state.group.countries,
+  );
 
   return (
     <div className="flex flex-col mx-0 lg:mx-16 xl:mx-60">
