@@ -6,7 +6,8 @@ import Image from "next/image";
 interface Country {
   countryName: string;
   fileName: string;
-  leftMargin: string;
+  flagPosition?: string;
+  justifyOption?: string;
 }
 
 const flagImagePath: string = "/images/flags/";
@@ -14,15 +15,22 @@ const flagImagePath: string = "/images/flags/";
 export default function CountryLabel({
   countryName,
   fileName,
-  leftMargin,
+  flagPosition,
+  justifyOption,
 }: Country): React.JSX.Element {
-  const margin: string = leftMargin;
+  //Default for the flag location is to the left of the country's name
+  flagPosition ? flagPosition : (flagPosition = "left");
+  //Default is justify-center if no justify preference is provided
+  justifyOption ? justifyOption : (justifyOption = "justify-center");
+  const cssClasses: string = `flex flex-nowrap items-center ${justifyOption} mx-4`;
 
   return (
-    <div
-      className="flex flex-nowrap items-center"
-      style={{ marginLeft: margin }}
-    >
+    <div className={cssClasses}>
+      {flagPosition === "right" && (
+        <div className="flex items-center shrink-0 mr-1.5">
+          <label>{countryName}</label>
+        </div>
+      )}
       <Image
         className="w-9 h-6 object-fill"
         src={flagImagePath + fileName + ".png"}
@@ -30,9 +38,11 @@ export default function CountryLabel({
         width={500}
         height={500}
       />
-      <div className="flex items-center ml-1.5">
-        <label>{countryName}</label>
-      </div>
+      {flagPosition === "left" && (
+        <div className="flex items-center shrink-0 ml-1.5">
+          <label>{countryName}</label>
+        </div>
+      )}
     </div>
   );
 }

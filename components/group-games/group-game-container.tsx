@@ -21,5 +21,13 @@ export default function GroupGamesContainer(): React.JSX.Element {
       ))
     : null;
 
-  return <div>{groupGames.length !== 0 && groupGames.map((game: Game, index: number)=><GroupGameRow key={index} game={game} index={index} />)}</div>;
+  //#EDEADE is the hex color for alabaster
+  return (
+    <div className="bg-[#EDEADE] lg:mx-10 xl:mx-20 rounded-lg">
+      {groupGames.length !== 0 &&
+        groupGames.map((game: Game, index: number) => (
+          <GroupGameRow key={index} game={game} index={index} />
+        ))}
+    </div>
+  );
 }

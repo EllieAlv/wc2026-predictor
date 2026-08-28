@@ -8,7 +8,7 @@ export default function Wc2026() {
     <>
       <MainHeader />
       <GroupMenu />
-      <main className="bg-gray-100 h-dvh">
+      <main className="bg-white h-dvh">
         <GroupTable />
         <GroupGames />
       </main>

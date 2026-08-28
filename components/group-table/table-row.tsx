@@ -1,6 +1,8 @@
 "use client";
 
 import CountryLabel from "../country-label";
+import StatLabel from "../stat-label";
+import StatLable from "../stat-label";
 
 const teamStats: string[] = [
   "Games Played",
@@ -24,18 +26,19 @@ export default function TableRow({
   index,
   country,
 }: TableRowProps): React.JSX.Element {
+  //#EDEADE is the hex color for alabaster
+  //<label className="text-center" key={`${stat}${statIndex}`}
   return (
-    <div className="grid grid-cols-[1fr_2fr_repeat(8,1fr)] grid-flow-col py-2">
+    <div className="grid grid-cols-[1fr_2fr_repeat(8,1fr)] grid-flow-col bg-[#EDEADE] py-2 rounded-md">
       <label className="text-center">{index + 1}</label>
       <CountryLabel
         countryName={country}
         fileName={`${group}${index + 1} ${country}`}
-        leftMargin={"4rem"}
+        flagPosition="left"
+        justifyOption="justify-center"
       />
       {teamStats.map((stat: string, statIndex: number) => (
-        <label className="text-center" key={`${stat}${statIndex}`}>
-          0
-        </label>
+        <StatLabel key={`${stat}${statIndex}`}>0</StatLabel>
       ))}
     </div>
   );
