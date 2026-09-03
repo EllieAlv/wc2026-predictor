@@ -1,11 +1,19 @@
 import ScoreInput from "../score-input";
+import { TeamData } from "../models/team-data";
 
-export default function GroupGameScore(): React.JSX.Element {
+interface TeamDataProp {
+  teamA: TeamData;
+  teamB: TeamData
+}
+
+export default function GroupGameScore({
+  teamA, teamB
+}: TeamDataProp): React.JSX.Element {
   return (
     <div className="flex flex-row justify-center">
-      <ScoreInput></ScoreInput>
+      <ScoreInput teamInfo={teamA}></ScoreInput>
       <label className="mx-3">-</label>
-      <ScoreInput></ScoreInput>
+      <ScoreInput teamInfo={teamB}></ScoreInput>
     </div>
   );
 }

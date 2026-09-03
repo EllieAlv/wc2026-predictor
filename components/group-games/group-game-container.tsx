@@ -3,7 +3,7 @@
 import { useGetGroupsDataQuery } from "../../lib/features/fetchGroupsApi";
 import { RootState } from "../../lib/store";
 import { useAppSelector } from "../../lib/hooks";
-import { Game } from "../models/game";
+import { GameData } from "../models/game-data";
 import GroupGameRow from "./group-game-row";
 
 export default function GroupGamesContainer(): React.JSX.Element {
@@ -13,11 +13,11 @@ export default function GroupGamesContainer(): React.JSX.Element {
   const selectedGroup: string = useAppSelector(
     (state: RootState) => state.group.groupName,
   );
-  let groupGames: Game[] = [];
+  let groupGames: GameData[] = [];
 
   haveGamesList
     ? (groupGames = gamesList.filter(
-        (game: Game) => game.phase === "group " + selectedGroup,
+        (game: GameData) => game.phase === "group " + selectedGroup,
       ))
     : null;
 
@@ -25,8 +25,8 @@ export default function GroupGamesContainer(): React.JSX.Element {
   return (
     <div className="bg-[#EDEADE] lg:mx-10 xl:mx-20 rounded-lg">
       {groupGames.length !== 0 &&
-        groupGames.map((game: Game, index: number) => (
-          <GroupGameRow key={index} game={game} index={index} />
+        groupGames.map((game: GameData, index: number) => (
+          <GroupGameRow key={index} game={game} />
         ))}
     </div>
   );

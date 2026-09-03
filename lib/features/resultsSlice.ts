@@ -1,26 +1,26 @@
 import { createSlice, PayloadAction } from "@reduxjs/toolkit";
-import { GroupResults } from "../../components/models/group-results";
+import { GameResult } from "../../components/models/game-result";
 
 //Define initial state
-const initialState: GroupResults[] = [];
+const initialState: GameResult[] = [];
 
 //Create slice with type reducers
 export const resultsSlice = createSlice({
   name: "groupStageResults",
   initialState,
   reducers: {
-    addResults: (
-      state,
-      { payload }: PayloadAction<{ results: GroupResults }>,
+    addResult: (
+      state, action: PayloadAction<GameResult>,
     ) => {
       const index: number = state.findIndex(
-        (group) => group.groupName === payload.results.groupName,
+        (result) => result.matchID === action.payload.matchID,
       );
 
-      //Remove results of the current group if they exist
-      index !== -1 && state.splice(1, index);
+      //Remove results of the current game if they exist
+      index !== -1 && state.splice(index, 1);
       //Insert new results
-      state.push(payload.results);
+      state.push(action.payload);
+      console.log("state at slice: ", state);
     },
 
     /*clearResults: (
@@ -32,5 +32,5 @@ export const resultsSlice = createSlice({
   },
 });
 
-export const { addResults } = resultsSlice.actions;
+export const { addResult } = resultsSlice.actions;
 export default resultsSlice.reducer;

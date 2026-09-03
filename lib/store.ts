@@ -9,7 +9,7 @@ export const makeStore = () =>
   configureStore({
     reducer: {
       group: groupReducer,
-      games: gameReducer,
+      //games: gameReducer,
       results: resultsReducer,
       [fetchGroupsApi.reducerPath]: fetchGroupsApi.reducer,
     },

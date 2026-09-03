@@ -1,4 +1,4 @@
-export interface Game {
+export interface GameData {
   match_id: string;
   phase: string;
   date: string;

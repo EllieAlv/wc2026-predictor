@@ -1,15 +1,19 @@
+/* WILL PROBABLY NOT USE AND WILL NEED TO DELETE */
+
 import { createSlice, PayloadAction } from "@reduxjs/toolkit";
-import { Game } from "../../components/models/game";
+import { GameResult } from "../../components/models/game-result";
+
+//interface 
 
 //Define initial state
-const initialState: Game[] = [];
+const initialState: GameResult[] = [];
 
 //Create slice with type reducers
 export const gamesSlice = createSlice({
   name: "games",
   initialState,
   reducers: {
-    loadGames: (state, action: PayloadAction<Game[]>) => {
+    loadGames: (state, action: PayloadAction<GameResult[]>) => {
         return action.payload;
     },
   },
