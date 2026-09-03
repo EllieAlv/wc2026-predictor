@@ -19,24 +19,18 @@ export default function ScoreInput({
       (score: GameResult) => score.matchID === teamInfo.matchID,
     ),
   );
-  const gameScores: GameResult[] = useAppSelector(
-    (state: RootState) => state.results,
-  );
-  console.log("gameScores at the Beginning: ", gameScores);
   const groupName: string = useAppSelector(
     (state: RootState) => state.group.groupName,
   );
   const dispatch = useAppDispatch();
-  const score: string =
+  const goalsScored: string =
     teamInfo.team === "A"
       ? (gameScore?.teamAScore ?? "")
       : (gameScore?.teamBScore ?? "");
-  console.log("start gameScore: ", gameScore);
-
-  const [inputValue, setInputValue] = useState<string>(score);
+  const [inputValue, setInputValue] = useState<string>(goalsScored);
 
   useEffect(() => {
-    setInputValue(score);
+    setInputValue(goalsScored);
   }, [groupName]);
 
   function handleInputChange(e: React.ChangeEvent<HTMLInputElement>) {
@@ -54,10 +48,10 @@ export default function ScoreInput({
       wasPlayed: false,
     };
     let score: string = e.target.value;
+    const isDifferent: boolean = goalsScored !== score;
 
     //if focus is lost with a number entered
-    if (score !== "") {
-      console.log("TRIGGERIIIIIING!!!!!");
+    if (isDifferent) {
       //It assigns the input value to either teamAScore or teamBScore depending on the input being updated
       teamInfo.team === "A"
         ? (newGameScore.teamAScore = score)
@@ -65,20 +59,12 @@ export default function ScoreInput({
       //If there was a previous entry, it updates 'newGameScore' with the existing data
       if (gameScore && teamInfo.team === "B")
         newGameScore.teamAScore = gameScore.teamAScore;
-      if (gameScore && teamInfo.team === "A") {
-        console.log(
-          "Blur, on team A copies B data: ",
-          gameScore,
-          teamInfo.team,
-          gameScore.teamBScore,
-        );
+      if (gameScore && teamInfo.team === "A")
         newGameScore.teamBScore = gameScore.teamBScore;
-      }
       /*newGameScore.teamAScore = gameScore && teamInfo.team === "B" ? gameScore?.teamAScore : null;
       newGameScore.teamBScore = gameScore && teamInfo.team === "A" ? gameScore?.teamBScore : null;*/
       if (newGameScore.teamAScore !== null && newGameScore.teamBScore !== null)
         newGameScore.wasPlayed = true;
-
       dispatch(addResult(newGameScore));
     }
   }

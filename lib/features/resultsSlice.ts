@@ -20,7 +20,6 @@ export const resultsSlice = createSlice({
       index !== -1 && state.splice(index, 1);
       //Insert new results
       state.push(action.payload);
-      console.log("state at slice: ", state);
     },
 
     /*clearResults: (
