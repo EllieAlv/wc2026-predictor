@@ -27,7 +27,7 @@ export default function GroupMenu(): React.JSX.Element {
     const newSelectedGroup: Group = groupsData.find(
       (group: Group) => "Group " + group.groupName === groupName,
     );
-
+    console.log("newSelectedGroup: ", newSelectedGroup);
     dispatch(selectGroup(newSelectedGroup));
   }
 

@@ -1,5 +1,3 @@
-"use client";
-
 import { RootState } from "../../lib/store";
 import { useAppSelector } from "../../lib/hooks";
 

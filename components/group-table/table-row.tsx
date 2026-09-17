@@ -1,5 +1,3 @@
-"use client";
-
 import { useGetGroupsDataQuery } from "../../lib/features/fetchGroupsApi";
 import { useAppSelector } from "../../lib/hooks";
 import { RootState } from "../../lib/store";
