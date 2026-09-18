@@ -10,7 +10,6 @@ export default function GroupGames(): React.JSX.Element {
         <GroupGamesHeader />
         <GroupGamesContainer />
       </div>
-      {/*#2596BE */} {/* #0c7377*/}
       <div className="flex flex-col mx-0 lg:mx-16 xl:mx-60 bg-[#E42518] my-20">
         <label className="text-[#D3C084] font-bold text-center">Portugal</label>
       </div>

@@ -8,7 +8,7 @@ import { getGroupNames } from "../../lib/get-groups-data";
 import { Group } from "../models/group";
 import Button from "./top-menu-button";
 
-export default function GroupMenu(): React.JSX.Element {
+export default function MainMenu(): React.JSX.Element {
   //Redux hooks used for main menu interaction
   const selectedGroup: string = useAppSelector(
     (state: RootState) => state.group.groupName,
@@ -24,10 +24,12 @@ export default function GroupMenu(): React.JSX.Element {
 
   //Gives red text to the selected button and white text to the others
   function handleMenuClick(groupName: string) {
-    const newSelectedGroup: Group = groupsData.find(
-      (group: Group) => "Group " + group.groupName === groupName,
-    );
-    console.log("newSelectedGroup: ", newSelectedGroup);
+    const newSelectedGroup: Group =
+      groupName === "Knockout round"
+        ? { groupName: "Knockout round" }
+        : groupsData.find(
+            (group: Group) => "Group " + group.groupName === groupName,
+          );
     dispatch(selectGroup(newSelectedGroup));
   }
 
@@ -35,7 +37,10 @@ export default function GroupMenu(): React.JSX.Element {
     <div className="flex justify-start xl:justify-center h-16 bg-[#000000]">
       <menu className="flex flex-row items-center flex-wrap md:flex-nowrap">
         {groupNames.map((menuItem: string) => {
-          const isSelected = menuItem === "Group " + selectedGroup;
+          const isSelected =
+            selectedGroup === "Knockout round"
+              ? menuItem === "Knockout round"
+              : menuItem === "Group " + selectedGroup;
           const buttonClass = isSelected
             ? "text-red-500 bg-[#000000] hover:bg-[#1A1A1A]"
             : "text-white bg-[#000000] hover:text-red-500 hover:bg-[#1A1A1A]";
