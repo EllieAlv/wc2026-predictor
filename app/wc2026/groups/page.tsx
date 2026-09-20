@@ -1,5 +1,5 @@
-import GroupTable from "../../components/group-table/group-table";
-import GroupGames from "../../components/group-games/group-games";
+import GroupTable from "../../../components/group-table/group-table";
+import GroupGames from "../../../components/group-games/group-games";
 
 export default function Groups() {
   return (

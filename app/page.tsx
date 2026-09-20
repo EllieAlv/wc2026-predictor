@@ -1,15 +1,5 @@
-"use client";
-
-import { useAppSelector } from "../lib/hooks";
-import { RootState } from "../lib/store";
-import Groups from "./groups/page";
-import Knockouts from "./knockouts/page";
+import WC2026 from "./wc2026/page";
 
 export default function Home() {
-  const menuSelection: string = useAppSelector(
-    (state: RootState) => state.group.groupName,
-  );
-  console.log("menuSelection:", menuSelection);
-
-  return <>{menuSelection !== "Knockout round" ? <Groups /> : <Knockouts />}</>;
+  return <WC2026/>
 }

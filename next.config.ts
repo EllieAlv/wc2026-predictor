@@ -3,7 +3,7 @@ import type { NextConfig } from "next";
 const nextConfig: NextConfig = {
   /* config options here */
   reactCompiler: true,
-  /*async redirects() {
+  async redirects() {
     return [
       {
         source: "/",
@@ -11,7 +11,7 @@ const nextConfig: NextConfig = {
         permanent: false, //To send 308 redirect status code
       },
     ];
-  },*/
+  },
   async rewrites() {
     return [
       {
