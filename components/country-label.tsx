@@ -4,20 +4,18 @@ Left margin is received as a prop to allow for the component to be used in diffe
 import Image from "next/image";
 
 interface Country {
-  countryName: string;
-  fileName: string;
+  countryName: string;  
   flagPosition?: string;
   justifyOption?: string;
 }
 
-const flagImagePath: string = "/images/flags/";
-
 export default function CountryLabel({
   countryName,
-  fileName,
   flagPosition,
   justifyOption,
 }: Country): React.JSX.Element {
+  const filePath = `${process.env.NEXT_PUBLIC_S3_BUCKET_URL}/flags/${countryName}.png`;
+  
   //Default for the flag location is to the left of the country's name
   flagPosition ? flagPosition : (flagPosition = "left");
   //Default is justify-center if no justify preference is provided
@@ -33,7 +31,7 @@ export default function CountryLabel({
       )}
       <Image
         className="w-9 h-6 object-fill"
-        src={flagImagePath + fileName + ".png"}
+        src={filePath}
         alt={`Flag of ${countryName}`}
         width={500}
         height={500}

@@ -122,7 +122,6 @@ export default function TableRow({
       <label className="text-center">{index + 1}</label>
       <CountryLabel
         countryName={country}
-        fileName={`${group}${index + 1} ${country}`}
         flagPosition="left"
         justifyOption="justify-center"
       />

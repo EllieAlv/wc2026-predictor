@@ -3,15 +3,6 @@ import type { NextConfig } from "next";
 const nextConfig: NextConfig = {
   /* config options here */
   reactCompiler: true,
-  async redirects() {
-    return [
-      {
-        source: "/",
-        destination: "/wc2026",
-        permanent: false, //To send 308 redirect status code
-      },
-    ];
-  },
   async rewrites() {
     return [
       {
@@ -19,6 +10,15 @@ const nextConfig: NextConfig = {
         destination: `${process.env.NEXT_PUBLIC_API_GATEWAY_URL}/:path*`,
       },
     ];
+  },
+  images: {
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: process.env.S3_BUCKET_NAME,
+        pathname: "/**",
+      },
+    ],
   },
 };
 
