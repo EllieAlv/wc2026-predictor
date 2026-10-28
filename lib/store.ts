@@ -1,7 +1,6 @@
 import { configureStore } from "@reduxjs/toolkit";
 import { fetchGroupsApi } from "./features/fetchGroupsApi";
 import groupReducer from "./features/groupSlice";
-import gameReducer from "./features/gamesSlice";
 import resultsReducer from "./features/resultsSlice"
 
 //Create store to hold reducers
