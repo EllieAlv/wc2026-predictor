@@ -1,0 +1,578 @@
+[
+  {
+    "match_id": "1",
+    "phase": "group A",
+    "date": "June 11, 2026",
+    "teamA": "Mexico",
+    "teamB": "South Africa",
+    "location": "Estadio Azteca, Mexico City"
+  },
+  {
+    "match_id": "2",
+    "phase": "group A",
+    "date": "June 11, 2026",
+    "teamA": "South Korea",
+    "teamB": "Czechia",
+    "location": "Estadio Akron, Zapopan"
+  },
+  {
+    "match_id": "25",
+    "phase": "group A",
+    "date": "June 18, 2026",
+    "teamA": "Czechia",
+    "teamB": "South Africa",
+    "location": "Mercedes-Benz Stadium, Atlanta"
+  },
+  {
+    "match_id": "28",
+    "phase": "group A",
+    "date": "June 18, 2026",
+    "teamA": "Mexico",
+    "teamB": "South Korea",
+    "location": "Estadio Akron, Zapopan"
+  },
+  {
+    "match_id": "53",
+    "phase": "group A",
+    "date": "June 24, 2026",
+    "teamA": "Czechia",
+    "teamB": "Mexico",
+    "location": "Estadio Azteca, Mexico City"
+  },
+  {
+    "match_id": "54",
+    "phase": "group A",
+    "date": "June 24, 2026",
+    "teamA": "South Africa",
+    "teamB": "South Korea",
+    "location": "Estadio BBVA, Guadalupe"
+  },
+  {
+    "match_id": "3",
+    "phase": "group B",
+    "date": "June 12, 2026",
+    "teamA": "Canada",
+    "teamB": "Bosnia and Herzegovina",
+    "location": "BMO Field, Toronto"
+  },
+  {
+    "match_id": "8",
+    "phase": "group B",
+    "date": "June 13, 2026",
+    "teamA": "Qatar",
+    "teamB": "Switzerland",
+    "location": "Levi's Stadium, Santa Clara"
+  },
+  {
+    "match_id": "26",
+    "phase": "group B",
+    "date": "June 18, 2026",
+    "teamA": "Switzerland",
+    "teamB": "Bosnia and Herzegovina",
+    "location": "SoFi Stadium, Inglewood"
+  },
+  {
+    "match_id": "27",
+    "phase": "group B",
+    "date": "June 18, 2026",
+    "teamA": "Canada",
+    "teamB": "Qatar",
+    "location": "BC Place, Vancouver"
+  },
+  {
+    "match_id": "51",
+    "phase": "group B",
+    "date": "June 24, 2026",
+    "teamA": "Switzerland",
+    "teamB": "Canada",
+    "location": "BC Place, Vancouver"
+  },
+  {
+    "match_id": "52",
+    "phase": "group B",
+    "date": "June 24, 2026",
+    "teamA": "Bosnia and Herzegovina",
+    "teamB": "Qatar",
+    "location": "Lumen Field, Seattle"
+  },
+  {
+    "match_id": "7",
+    "phase": "group C",
+    "date": "June 13, 2026",
+    "teamA": "Brazil",
+    "teamB": "Morocco",
+    "location": "MetLife Stadium, East Rutherford"
+  },
+  {
+    "match_id": "5",
+    "phase": "group C",
+    "date": "June 13, 2026",
+    "teamA": "Haiti",
+    "teamB": "Scotland",
+    "location": "Gillette Stadium, Foxborough"
+  },
+  {
+    "match_id": "30",
+    "phase": "group C",
+    "date": "June 19, 2026",
+    "teamA": "Scotland",
+    "teamB": "Morocco",
+    "location": "Gillette Stadium, Foxborough"
+  },
+  {
+    "match_id": "29",
+    "phase": "group C",
+    "date": "June 19, 2026",
+    "teamA": "Brazil",
+    "teamB": "Haiti",
+    "location": "Lincoln Financial Field, Philadelphia"
+  },
+  {
+    "match_id": "49",
+    "phase": "group C",
+    "date": "June 24, 2026",
+    "teamA": "Scotland",
+    "teamB": "Brazil",
+    "location": "Hard Rock Stadium, Miami Gardens"
+  },
+  {
+    "match_id": "50",
+    "phase": "group C",
+    "date": "June 24, 2026",
+    "teamA": "Morocco",
+    "teamB": "Haiti",
+    "location": "Mercedes-Benz Stadium, Atlanta"
+  },
+  {
+    "match_id": "4",
+    "phase": "group D",
+    "date": "June 12, 2026",
+    "teamA": "United States",
+    "teamB": "Paraguay",
+    "location": "SoFi Stadium, Inglewood"
+  },
+  {
+    "match_id": "6",
+    "phase": "group D",
+    "date": "June 13, 2026",
+    "teamA": "Australia",
+    "teamB": "Türkiye",
+    "location": "BC Place, Vancouver"
+  },
+  {
+    "match_id": "32",
+    "phase": "group D",
+    "date": "June 19, 2026",
+    "teamA": "United States",
+    "teamB": "Australia",
+    "location": "Lumen Field, Seattle"
+  },
+  {
+    "match_id": "31",
+    "phase": "group D",
+    "date": "June 19, 2026",
+    "teamA": "Türkiye",
+    "teamB": "Paraguay",
+    "location": "Levi's Stadium, Santa Clara"
+  },
+  {
+    "match_id": "59",
+    "phase": "group D",
+    "date": "June 25, 2026",
+    "teamA": "Türkiye",
+    "teamB": "United States",
+    "location": "SoFi Stadium, Inglewood"
+  },
+  {
+    "match_id": "60",
+    "phase": "group D",
+    "date": "June 25, 2026",
+    "teamA": "Paraguay",
+    "teamB": "Australia",
+    "location": "Levi's Stadium, Santa Clara"
+  },
+  {
+    "match_id": "10",
+    "phase": "group E",
+    "date": "June 14, 2026",
+    "teamA": "Germany",
+    "teamB": "Curaçao",
+    "location": "NRG Stadium, Houston"
+  },
+  {
+    "match_id": "9",
+    "phase": "group E",
+    "date": "June 14, 2026",
+    "teamA": "Côte d'Ivoire",
+    "teamB": "Ecuador",
+    "location": "Lincoln Financial Field, Philadelphia"
+  },
+  {
+    "match_id": "33",
+    "phase": "group E",
+    "date": "June 20, 2026",
+    "teamA": "Germany",
+    "teamB": "Côte d'Ivoire",
+    "location": "BMO Field, Toronto"
+  },
+  {
+    "match_id": "34",
+    "phase": "group E",
+    "date": "June 20, 2026",
+    "teamA": "Ecuador",
+    "teamB": "Curaçao",
+    "location": "Arrowhead Stadium, Kansas City"
+  },
+  {
+    "match_id": "55",
+    "phase": "group E",
+    "date": "June 25, 2026",
+    "teamA": "Curaçao",
+    "teamB": "Côte d'Ivoire",
+    "location": "Lincoln Financial Field, Philadelphia"
+  },
+  {
+    "match_id": "56",
+    "phase": "group E",
+    "date": "June 25, 2026",
+    "teamA": "Ecuador",
+    "teamB": "Germany",
+    "location": "MetLife Stadium, East Rutherford"
+  },
+  {
+    "match_id": "11",
+    "phase": "group F",
+    "date": "June 14, 2026",
+    "teamA": "Netherlands",
+    "teamB": "Japan",
+    "location": "AT&T Stadium, Arlington"
+  },
+  {
+    "match_id": "12",
+    "phase": "group F",
+    "date": "June 14, 2026",
+    "teamA": "Sweden",
+    "teamB": "Tunisia",
+    "location": "Estadio BBVA, Guadalupe"
+  },
+  {
+    "match_id": "35",
+    "phase": "group F",
+    "date": "June 20, 2026",
+    "teamA": "Netherlands",
+    "teamB": "Sweden",
+    "location": "NRG Stadium, Houston"
+  },
+  {
+    "match_id": "36",
+    "phase": "group F",
+    "date": "June 20, 2026",
+    "teamA": "Tunisia",
+    "teamB": "Japan",
+    "location": "Estadio BBVA, Guadalupe"
+  },
+  {
+    "match_id": "57",
+    "phase": "group F",
+    "date": "June 25, 2026",
+    "teamA": "Japan",
+    "teamB": "Sweden",
+    "location": "AT&T Stadium, Arlington"
+  },
+  {
+    "match_id": "58",
+    "phase": "group F",
+    "date": "June 25, 2026",
+    "teamA": "Tunisia",
+    "teamB": "Netherlands",
+    "location": "Arrowhead Stadium, Kansas City"
+  },
+  {
+    "match_id": "16",
+    "phase": "group G",
+    "date": "June 15, 2026",
+    "teamA": "Belgium",
+    "teamB": "Egypt",
+    "location": "Lumen Field, Seattle"
+  },
+  {
+    "match_id": "15",
+    "phase": "group G",
+    "date": "June 15, 2026",
+    "teamA": "Iran",
+    "teamB": "New Zealand",
+    "location": "SoFi Stadium, Inglewood"
+  },
+  {
+    "match_id": "39",
+    "phase": "group G",
+    "date": "June 21, 2026",
+    "teamA": "Belgium",
+    "teamB": "Iran",
+    "location": "SoFi Stadium, Inglewood"
+  },
+  {
+    "match_id": "40",
+    "phase": "group G",
+    "date": "June 21, 2026",
+    "teamA": "New Zealand",
+    "teamB": "Egypt",
+    "location": "BC Place, Vancouver"
+  },
+  {
+    "match_id": "63",
+    "phase": "group G",
+    "date": "June 26, 2026",
+    "teamA": "Egypt",
+    "teamB": "Iran",
+    "location": "Lumen Field, Seattle"
+  },
+  {
+    "match_id": "64",
+    "phase": "group G",
+    "date": "June 26, 2026",
+    "teamA": "New Zealand",
+    "teamB": "Belgium",
+    "location": "BC Place, Vancouver"
+  },
+  {
+    "match_id": "14",
+    "phase": "group H",
+    "date": "June 15, 2026",
+    "teamA": "Spain",
+    "teamB": "Cabo Verde",
+    "location": "Mercedes-Benz Stadium, Atlanta"
+  },
+  {
+    "match_id": "13",
+    "phase": "group H",
+    "date": "June 15, 2026",
+    "teamA": "Saudi Arabia",
+    "teamB": "Uruguay",
+    "location": "Hard Rock Stadium, Miami Gardens"
+  },
+  {
+    "match_id": "38",
+    "phase": "group H",
+    "date": "June 21, 2026",
+    "teamA": "Spain",
+    "teamB": "Saudi Arabia",
+    "location": "Mercedes-Benz Stadium, Atlanta"
+  },
+  {
+    "match_id": "37",
+    "phase": "group H",
+    "date": "June 21, 2026",
+    "teamA": "Uruguay",
+    "teamB": "Cabo Verde",
+    "location": "Hard Rock Stadium, Miami Gardens"
+  },
+  {
+    "match_id": "65",
+    "phase": "group H",
+    "date": "June 26, 2026",
+    "teamA": "Cabo Verde",
+    "teamB": "Saudi Arabia",
+    "location": "NRG Stadium, Houston"
+  },
+  {
+    "match_id": "66",
+    "phase": "group H",
+    "date": "June 26, 2026",
+    "teamA": "Uruguay",
+    "teamB": "Spain",
+    "location": "Estadio Akron, Zapopan"
+  },
+  {
+    "match_id": "17",
+    "phase": "group I",
+    "date": "June 16, 2026",
+    "teamA": "France",
+    "teamB": "Senegal",
+    "location": "MetLife Stadium, East Rutherford"
+  },
+  {
+    "match_id": "18",
+    "phase": "group I",
+    "date": "June 16, 2026",
+    "teamA": "Iraq",
+    "teamB": "Norway",
+    "location": "Gillette Stadium, Foxborough"
+  },
+  {
+    "match_id": "42",
+    "phase": "group I",
+    "date": "June 22, 2026",
+    "teamA": "France",
+    "teamB": "Iraq",
+    "location": "Lincoln Financial Field, Philadelphia"
+  },
+  {
+    "match_id": "41",
+    "phase": "group I",
+    "date": "June 22, 2026",
+    "teamA": "Norway",
+    "teamB": "Senegal",
+    "location": "MetLife Stadium, East Rutherford"
+  },
+  {
+    "match_id": "61",
+    "phase": "group I",
+    "date": "June 26, 2026",
+    "teamA": "Norway",
+    "teamB": "France",
+    "location": "Gillette Stadium, Foxborough"
+  },
+  {
+    "match_id": "62",
+    "phase": "group I",
+    "date": "June 26, 2026",
+    "teamA": "Senegal",
+    "teamB": "Iraq",
+    "location": "BMO Field, Toronto"
+  },
+  {
+    "match_id": "19",
+    "phase": "group J",
+    "date": "June 16, 2026",
+    "teamA": "Argentina",
+    "teamB": "Algeria",
+    "location": "Arrowhead Stadium, Kansas City"
+  },
+  {
+    "match_id": "20",
+    "phase": "group J",
+    "date": "June 16, 2026",
+    "teamA": "Austria",
+    "teamB": "Jordan",
+    "location": "Levi's Stadium, Santa Clara"
+  },
+  {
+    "match_id": "43",
+    "phase": "group J",
+    "date": "June 22, 2026",
+    "teamA": "Argentina",
+    "teamB": "Austria",
+    "location": "AT&T Stadium, Arlington"
+  },
+  {
+    "match_id": "44",
+    "phase": "group J",
+    "date": "June 22, 2026",
+    "teamA": "Jordan",
+    "teamB": "Algeria",
+    "location": "Levi's Stadium, Santa Clara"
+  },
+  {
+    "match_id": "69",
+    "phase": "group J",
+    "date": "June 27, 2026",
+    "teamA": "Algeria",
+    "teamB": "Austria",
+    "location": "Arrowhead Stadium, Kansas City"
+  },
+  {
+    "match_id": "70",
+    "phase": "group J",
+    "date": "June 27, 2026",
+    "teamA": "Jordan",
+    "teamB": "Argentina",
+    "location": "AT&T Stadium, Arlington"
+  },
+  {
+    "match_id": "23",
+    "phase": "group K",
+    "date": "June 17, 2026",
+    "teamA": "Portugal",
+    "teamB": "DR Congo",
+    "location": "NRG Stadium, Houston"
+  },
+  {
+    "match_id": "24",
+    "phase": "group K",
+    "date": "June 17, 2026",
+    "teamA": "Uzbekistan",
+    "teamB": "Colombia",
+    "location": "Estadio Azteca, Mexico City"
+  },
+  {
+    "match_id": "47",
+    "phase": "group K",
+    "date": "June 23, 2026",
+    "teamA": "Portugal",
+    "teamB": "Uzbekistan",
+    "location": "NRG Stadium, Houston"
+  },
+  {
+    "match_id": "48",
+    "phase": "group K",
+    "date": "June 23, 2026",
+    "teamA": "Colombia",
+    "teamB": "DR Congo",
+    "location": "Estadio Akron, Zapopan"
+  },
+  {
+    "match_id": "71",
+    "phase": "group K",
+    "date": "June 27, 2026",
+    "teamA": "Colombia",
+    "teamB": "Portugal",
+    "location": "Hard Rock Stadium, Miami Gardens"
+  },
+  {
+    "match_id": "72",
+    "phase": "group K",
+    "date": "June 27, 2026",
+    "teamA": "DR Congo",
+    "teamB": "Uzbekistan",
+    "location": "Mercedes-Benz Stadium, Atlanta"
+  },
+  {
+    "match_id": "22",
+    "phase": "group L",
+    "date": "June 17, 2026",
+    "teamA": "England",
+    "teamB": "Croatia",
+    "location": "AT&T Stadium, Arlington"
+  },
+  {
+    "match_id": "21",
+    "phase": "group L",
+    "date": "June 17, 2026",
+    "teamA": "Ghana",
+    "teamB": "Panama",
+    "location": "BMO Field, Toronto"
+  },
+  {
+    "match_id": "45",
+    "phase": "group L",
+    "date": "June 23, 2026",
+    "teamA": "England",
+    "teamB": "Ghana",
+    "location": "Gillette Stadium, Foxborough"
+  },
+  {
+    "match_id": "46",
+    "phase": "group L",
+    "date": "June 23, 2026",
+    "teamA": "Panama",
+    "teamB": "Croatia",
+    "location": "BMO Field, Toronto"
+  },
+  {
+    "match_id": "67",
+    "phase": "group L",
+    "date": "June 27, 2026",
+    "teamA": "Panama",
+    "teamB": "England",
+    "location": "MetLife Stadium, East Rutherford"
+  },
+  {
+    "match_id": "68",
+    "phase": "group L",
+    "date": "June 27, 2026",
+    "teamA": "Croatia",
+    "teamB": "Ghana",
+    "location": "Lincoln Financial Field, Philadelphia"
+  }
+]

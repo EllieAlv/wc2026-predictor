@@ -1,0 +1,290 @@
+[
+  {
+    "match_id": "73",
+    "phase": "Ro 32",
+    "game_id": "3",
+    "date": "June 28, 2026",
+    "teamA": "Runner-up Group A",
+    "teamB": "Runner-up Group B",
+    "location": "SoFi Stadium, Inglewood"
+  },
+  {
+    "match_id": "76",
+    "phase": "Ro 32",
+    "game_id": "9",
+    "date": "June 29, 2026",
+    "teamA": "Winner Group C",
+    "teamB": "Runner-up Group F",
+    "location": "NRG Stadium, Houston"
+  },
+  {
+    "match_id": "74",
+    "phase": "Ro 32",
+    "game_id": "1",
+    "date": "June 29, 2026",
+    "teamA": "Winner Group E",
+    "teamB": "3rd Group A/B/C/D/F",
+    "location": "Gillette Stadium, Foxborough"
+  },
+  {
+    "match_id": "75",
+    "phase": "Ro 32",
+    "game_id": "4",
+    "date": "June 29, 2026",
+    "teamA": "Winner Group F",
+    "teamB": "Runner-up Group C",
+    "location": "Estadio BBVA, Guadalupe"
+  },
+  {
+    "match_id": "78",
+    "phase": "Ro 32",
+    "game_id": "10",
+    "date": "June 30, 2026",
+    "teamA": "Runner-up Group E",
+    "teamB": "Runner-up Group I",
+    "location": "AT&T Stadium, Arlington"
+  },
+  {
+    "match_id": "77",
+    "phase": "Ro 32",
+    "game_id": "2",
+    "date": "June 30, 2026",
+    "teamA": "Winner Group I",
+    "teamB": "3rd Group C/D/F/G/H",
+    "location": "MetLife Stadium, East Rutherford"
+  },
+  {
+    "match_id": "79",
+    "phase": "Ro 32",
+    "game_id": "11",
+    "date": "June 30, 2026",
+    "teamA": "Winner Group A",
+    "teamB": "3rd Group C/E/F/H/I",
+    "location": "Estadio Azteca, Mexico City"
+  },
+  {
+    "match_id": "80",
+    "phase": "Ro 32",
+    "game_id": "12",
+    "date": "July 1, 2026",
+    "teamA": "Winner Group L",
+    "teamB": "3rd Group E/H/I/J/K",
+    "location": "Mercedes-Benz Stadium, Atlanta"
+  },
+  {
+    "match_id": "82",
+    "phase": "Ro 32",
+    "game_id": "8",
+    "date": "July 1, 2026",
+    "teamA": "Winner Group G",
+    "teamB": "3rd Group A/E/H/I/J",
+    "location": "Lumen Field, Seattle"
+  },
+  {
+    "match_id": "81",
+    "phase": "Ro 32",
+    "game_id": "7",
+    "date": "July 1, 2026",
+    "teamA": "Winner Group D",
+    "teamB": "3rd Group B/E/F/I/J",
+    "location": "Levi's Stadium, Santa Clara"
+  },
+  {
+    "match_id": "84",
+    "phase": "Ro 32",
+    "game_id": "6",
+    "date": "July 2, 2026",
+    "teamA": "Winner Group H",
+    "teamB": "Runner-up Group J",
+    "location": "SoFi Stadium, Inglewood"
+  },
+  {
+    "match_id": "83",
+    "phase": "Ro 32",
+    "game_id": "5",
+    "date": "July 2, 2026",
+    "teamA": "Runner-up Group K",
+    "teamB": "Runner-up Group L",
+    "location": "BMO Field, Toronto"
+  },
+  {
+    "match_id": "85",
+    "phase": "Ro 32",
+    "game_id": "15",
+    "date": "July 2, 2026",
+    "teamA": "Winner Group B",
+    "teamB": "3rd Group E/F/G/I/J",
+    "location": "BC Place, Vancouver"
+  },
+  {
+    "match_id": "88",
+    "phase": "Ro 32",
+    "game_id": "14",
+    "date": "July 3, 2026",
+    "teamA": "Runner-up Group D",
+    "teamB": "Runner-up Group G",
+    "location": "AT&T Stadium, Arlington"
+  },
+  {
+    "match_id": "86",
+    "phase": "Ro 32",
+    "game_id": "13",
+    "date": "July 3, 2026",
+    "teamA": "Winner Group J",
+    "teamB": "Runner-up Group H",
+    "location": "Hard Rock Stadium, Miami Gardens"
+  },
+  {
+    "match_id": "87",
+    "phase": "Ro 32",
+    "game_id": "16",
+    "date": "July 3, 2026",
+    "teamA": "Winner Group K",
+    "teamB": "3rd Group D/E/I/J/L",
+    "location": "Arrowhead Stadium, Kansas City"
+  },
+  {
+    "match_id": "90",
+    "phase": "Ro 16",
+    "game_id": "2",
+    "date": "July 4, 2026",
+    "teamA": "Winner Match 73",
+    "teamB": "Winner Match 75",
+    "location": "NRG Stadium, Houston"
+  },
+  {
+    "match_id": "89",
+    "phase": "Ro 16",
+    "game_id": "1",
+    "date": "July 4, 2026",
+    "teamA": "Winner Match 74",
+    "teamB": "Winner Match 77",
+    "location": "Lincoln Financial Field, Philadelphia"
+  },
+  {
+    "match_id": "91",
+    "phase": "Ro 16",
+    "game_id": "5",
+    "date": "July 5, 2026",
+    "teamA": "Winner Match 76",
+    "teamB": "Winner Match 78",
+    "location": "MetLife Stadium, East Rutherford"
+  },
+  {
+    "match_id": "92",
+    "phase": "Ro 16",
+    "game_id": "6",
+    "date": "July 5, 2026",
+    "teamA": "Winner Match 79",
+    "teamB": "Winner Match 80",
+    "location": "Estadio Azteca, Mexico City"
+  },
+  {
+    "match_id": "93",
+    "phase": "Ro 16",
+    "game_id": "3",
+    "date": "July 6, 2026",
+    "teamA": "Winner Match 83",
+    "teamB": "Winner Match 84",
+    "location": "AT&T Stadium, Arlington"
+  },
+  {
+    "match_id": "94",
+    "phase": "Ro 16",
+    "game_id": "4",
+    "date": "July 6, 2026",
+    "teamA": "Winner Match 81",
+    "teamB": "Winner Match 82",
+    "location": "Lumen Field, Seattle"
+  },
+  {
+    "match_id": "95",
+    "phase": "Ro 16",
+    "game_id": "7",
+    "date": "July 7, 2026",
+    "teamA": "Winner Match 86",
+    "teamB": "Winner Match 88",
+    "location": "Mercedes-Benz Stadium, Atlanta"
+  },
+  {
+    "match_id": "96",
+    "phase": "Ro 16",
+    "game_id": "8",
+    "date": "July 7, 2026",
+    "teamA": "Winner Match 85",
+    "teamB": "Winner Match 87",
+    "location": "BC Place, Vancouver"
+  },
+  {
+    "match_id": "97",
+    "phase": "Ro 8",
+    "game_id": "1",
+    "date": "July 9, 2026",
+    "teamA": "Winner Match 89",
+    "teamB": "Winner Match 90",
+    "location": "Gillette Stadium, Foxborough"
+  },
+  {
+    "match_id": "98",
+    "phase": "Ro 8",
+    "game_id": "2",
+    "date": "July 10, 2026",
+    "teamA": "Winner Match 93",
+    "teamB": "Winner Match 94",
+    "location": "SoFi Stadium, Inglewood"
+  },
+  {
+    "match_id": "99",
+    "phase": "Ro 8",
+    "game_id": "3",
+    "date": "July 11, 2026",
+    "teamA": "Winner Match 91",
+    "teamB": "Winner Match 92",
+    "location": "Hard Rock Stadium, Miami Gardens"
+  },
+  {
+    "match_id": "100",
+    "phase": "Ro 8",
+    "game_id": "4",
+    "date": "July 11, 2026",
+    "teamA": "Winner Match 95",
+    "teamB": "Winner Match 96",
+    "location": "Arrowhead Stadium, Kansas City"
+  },
+  {
+    "match_id": "101",
+    "phase": "Ro 4",
+    "game_id": "1",
+    "date": "July 14, 2026",
+    "teamA": "Winner Match 97",
+    "teamB": "Winner Match 98",
+    "location": "AT&T Stadium, Arlington"
+  },
+  {
+    "match_id": "102",
+    "phase": "Ro 4",
+    "game_id": "2",
+    "date": "July 15, 2026",
+    "teamA": "Winner Match 99",
+    "teamB": "Winner Match 100",
+    "location": "Mercedes-Benz Stadium, Atlanta"
+  },
+  {
+    "match_id": "103",
+    "phase": "3rd place",
+    "game_id": "2",
+    "date": "July 18, 2026",
+    "teamA": "Loser Match 101",
+    "teamB": "Loser Match 102",
+    "location": "Hard Rock Stadium, Miami Gardens"
+  },
+  {
+    "match_id": "104",
+    "phase": "Final",
+    "game_id": "1",
+    "date": "July 19, 2026",
+    "teamA": "Winner Match 101",
+    "teamB": "Winner Match 102",
+    "location": "MetLife Stadium, East Rutherford"
+  }
+]

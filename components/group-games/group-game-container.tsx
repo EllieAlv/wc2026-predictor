@@ -3,12 +3,12 @@
 import { useGetGroupsDataQuery } from "../../lib/features/fetchGroupsApi";
 import { RootState } from "../../lib/store";
 import { useAppSelector } from "../../lib/hooks";
-import { GameData } from "../models/game-data";
+import { GameData } from "../../models/game-data";
 import GroupGameRow from "./group-game-row";
 
 export default function GroupGamesContainer(): React.JSX.Element {
   const { data: gamesList, isSuccess: haveGamesList } = useGetGroupsDataQuery(
-    "list of matches.json",
+    "group matches.json",
   );
   const selectedGroup: string = useAppSelector(
     (state: RootState) => state.group.groupName,

@@ -1,7 +1,7 @@
 /* WILL PROBABLY NOT USE AND WILL NEED TO DELETE */
 
 import { createSlice, PayloadAction } from "@reduxjs/toolkit";
-import { GameResult } from "../../components/models/game-result";
+import { GameResult } from "../../models/game-result";
 
 //interface 
 

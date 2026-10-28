@@ -2,8 +2,8 @@ import { useGetGroupsDataQuery } from "../../lib/features/fetchGroupsApi";
 import { useAppSelector } from "../../lib/hooks";
 import { RootState } from "../../lib/store";
 import CountryLabel from "../country-label";
-import { GameData } from "../models/game-data";
-import { GameResult } from "../models/game-result";
+import { GameData } from "../../models/game-data";
+import { GameResult } from "../../models/game-result";
 import StatLabel from "../stat-label";
 
 interface TableRowProps {
@@ -21,10 +21,10 @@ export default function TableRow({
     "list of matches.json",
   );
   const homeGames: GameData[] = haveGamesData
-    ? gamesData.filter((game: GameData) => game.team1 === country)
+    ? gamesData.filter((game: GameData) => game.teamA === country)
     : [];
   const awayGames: GameData[] = haveGamesData
-    ? gamesData.filter((game: GameData) => game.team2 === country)
+    ? gamesData.filter((game: GameData) => game.teamB === country)
     : [];
   const games: GameData[] = [...homeGames, ...awayGames];
   const groupGames: GameResult[] = useAppSelector(

@@ -1,5 +1,5 @@
 import ScoreInput from "../score-input";
-import { TeamData } from "../models/team-data";
+import { TeamData } from "../../models/team-data";
 
 interface TeamDataProp {
   teamA: TeamData;

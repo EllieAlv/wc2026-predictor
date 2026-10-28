@@ -1,5 +1,5 @@
 import { createSlice, PayloadAction } from "@reduxjs/toolkit";
-import { GameResult } from "../../components/models/game-result";
+import { GameResult } from "../../models/game-result";
 
 //Define initial state
 const initialState: GameResult[] = [];

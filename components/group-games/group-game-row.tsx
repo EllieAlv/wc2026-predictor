@@ -1,8 +1,8 @@
 import CountryLabel from "../country-label";
-import StatLable from "../stat-label";
+import StatLabel from "../stat-label";
 import GroupGameScore from "./group-game-score";
-import { GameData } from "../models/game-data";
-import { TeamData } from "../models/team-data";
+import { GameData } from "../../models/game-data";
+import { TeamData } from "../../models/team-data";
 
 interface GameRowProp {
   game: GameData;
@@ -14,20 +14,24 @@ export default function GroupGameRow({ game }: GameRowProp): React.JSX.Element {
 
   return (
     <div className="grid grid-cols-[repeat(2,1fr)_1.6fr_1fr_1.6fr_2fr] my-3">
-      <StatLable>{game.match_id}</StatLable>
-      <StatLable>{game.date}</StatLable>
-      <CountryLabel
-        countryName={game.team1}
-        flagPosition="right"
-        justifyOption="justify-end"
-      />
+      <StatLabel>{game.match_id}</StatLabel>
+      <StatLabel>{game.date}</StatLabel>
+      <div className="mx-4">
+        <CountryLabel
+          countryName={game.teamA}
+          flagPosition="right"
+          justifyOption="justify-end"
+        />
+      </div>
       <GroupGameScore teamA={teamA} teamB={teamB} />
-      <CountryLabel
-        countryName={game.team2}
-        flagPosition="left"
-        justifyOption="justify-start"
-      />
-      <StatLable>{game.location}</StatLable>
+      <div className="mx-4">
+        <CountryLabel
+          countryName={game.teamB}
+          flagPosition="left"
+          justifyOption="justify-start"
+        />
+      </div>
+      <StatLabel>{game.location}</StatLabel>
     </div>
   );
 }

@@ -5,7 +5,7 @@ import { useAppDispatch, useAppSelector } from "../../lib/hooks";
 import { RootState } from "../../lib/store";
 import { selectGroup } from "../../lib/features/groupSlice";
 import { getGroupNames } from "../../lib/get-groups-data";
-import { Group } from "../models/group";
+import { Group } from "../../models/group";
 import Button from "./top-menu-button";
 
 export default function MainMenu(): React.JSX.Element {

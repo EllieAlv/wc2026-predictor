@@ -11,6 +11,7 @@ const nextConfig: NextConfig = {
       },
     ];
   },
+  //below needed for rewrites from the domain page
   images: {
     remotePatterns: [
       {
@@ -20,6 +21,10 @@ const nextConfig: NextConfig = {
       },
     ],
   },
+  assetPrefix:
+    process.env.NODE_ENV === "production"
+      ? "https://www.wc2026.elliealvarez.ca"
+      : "http://localhost:3000",
 };
 
 export default nextConfig;
