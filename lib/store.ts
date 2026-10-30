@@ -2,13 +2,14 @@ import { configureStore } from "@reduxjs/toolkit";
 import { fetchGroupsApi } from "./features/fetchGroupsApi";
 import groupReducer from "./features/groupSlice";
 import resultsReducer from "./features/resultsSlice"
+import standingsReducer from "./features/standingsSlice"
 
 //Create store to hold reducers
 export const makeStore = () =>
   configureStore({
     reducer: {
       group: groupReducer,
-      //games: gameReducer,
+      standings: standingsReducer,
       results: resultsReducer,
       [fetchGroupsApi.reducerPath]: fetchGroupsApi.reducer,
     },

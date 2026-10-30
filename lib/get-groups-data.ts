@@ -262,9 +262,8 @@ export function getGroupRanking(
     groupGames,
     results,
   });
-  //console.log("groupStats: ", groupStats);
   const sortedTeams: TeamStanding[] = sortTeams(groupStats, standingsData);
   console.log("final sortedTeams: ", sortedTeams);
 
-  return [];
+  return sortedTeams;
 }

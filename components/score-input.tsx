@@ -10,6 +10,7 @@ import { GameData } from "../models/game-data";
 import { TeamStanding } from "../models/team-standing";
 import { useGetGroupsDataQuery } from "../lib/features/fetchGroupsApi";
 import { getGroupRanking } from "../lib/get-groups-data";
+import { addTeams } from "../lib/features/standingsSlice";
 
 interface teamDataProp {
   teamInfo: TeamData;
@@ -78,6 +79,16 @@ export default function ScoreInput({
       results.length === 6 && gotFifaRanking
         ? getGroupRanking(currentGroup, { groupGames, results, fifaRanking })
         : [];
+
+    if (groupPositions.length > 0) {
+      dispatch(
+        addTeams([
+          { group: groupName, standing: 1, stats: groupPositions[0] },
+          { group: groupName, standing: 2, stats: groupPositions[1] },
+          { group: groupName, standing: 3, stats: groupPositions[2] },
+        ]),
+      );
+    }
 
     return groupPositions;
   }

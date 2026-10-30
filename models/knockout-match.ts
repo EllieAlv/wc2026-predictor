@@ -3,7 +3,7 @@ export interface KnockoutMatch {
   phase: string;
   game_id: string;
   date: string;
-  team1: string;
-  team2: string;
+  teamA: string;
+  teamB: string;
   location: string;
 }
